@@ -1,0 +1,67 @@
+{
+  "es": {
+    "nombre": "Español",
+    "region": "Principal",
+    "nivel": "completo",
+    "stt": [
+      "es",
+      "en"
+    ],
+    "nota": ""
+  },
+  "en": {
+    "nombre": "English",
+    "region": "Principal",
+    "nivel": "completo",
+    "stt": [
+      "en",
+      "es"
+    ],
+    "nota": "La orientadora habla, escucha y responde solo en inglés."
+  },
+  "cab": {
+    "nombre": "Garífuna",
+    "region": "Honduras",
+    "nivel": "experimental",
+    "stt": [
+      "es"
+    ],
+    "nota": "Experimental: la orientadora te hablará solo en garífuna (la calidad depende del modelo de IA, que no lo soporta oficialmente). Puedes responder en español."
+  },
+  "miq": {
+    "nombre": "Miskito",
+    "region": "Honduras",
+    "nivel": "experimental",
+    "stt": [
+      "es"
+    ],
+    "nota": "Experimental: la orientadora te hablará solo en miskito (la calidad depende del modelo de IA, que no lo soporta oficialmente). Puedes responder en español."
+  },
+  "nah": {
+    "nombre": "Náhuatl",
+    "region": "México",
+    "nivel": "experimental",
+    "stt": [
+      "es"
+    ],
+    "nota": "Experimental: la orientadora te hablará solo en náhuatl (la calidad depende del modelo de IA, que no lo soporta oficialmente). Puedes responder en español."
+  },
+  "yua": {
+    "nombre": "Maya yucateco",
+    "region": "México",
+    "nivel": "experimental",
+    "stt": [
+      "es"
+    ],
+    "nota": "Experimental: la orientadora te hablará solo en maya yucateco (la calidad depende del modelo de IA, que no lo soporta oficialmente). Puedes responder en español."
+  },
+  "guc": {
+    "nombre": "Wayuunaiki",
+    "region": "Colombia",
+    "nivel": "experimental",
+    "stt": [
+      "es"
+    ],
+    "nota": "Experimental: la orientadora te hablará solo en Wayuunaiki (la calidad depende del modelo de IA, que no lo soporta oficialmente). Puedes responder en español."
+  }
+}

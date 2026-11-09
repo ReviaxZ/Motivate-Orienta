@@ -1,0 +1,11 @@
+# Todas las dependencias de Motivate (web + agentes) para el venv de /opt/motivate
+fastapi==0.135.0
+uvicorn[standard]==0.53.0
+httpx==0.28.1
+livekit-api==1.2.1
+livekit-agents==1.7.1
+livekit-plugins-soniox==1.7.1
+livekit-plugins-fishaudio==1.7.1
+livekit-plugins-cerebras==1.7.1
+python-dotenv
+tzdata

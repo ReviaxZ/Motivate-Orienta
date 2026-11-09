@@ -1,0 +1,6 @@
+livekit-agents==1.7.1
+livekit-plugins-soniox==1.7.1
+livekit-plugins-fishaudio==1.7.1
+livekit-plugins-cerebras==1.7.1
+httpx
+python-dotenv

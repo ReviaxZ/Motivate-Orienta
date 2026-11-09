@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Panel de orientación</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root { --bg:#f5f3ee; --surface:#fff; --ink:#17202b; --muted:#5e6a77; --line:#e5e1d7; --primary:#3346c4; --good:#1b9b67; --warn:#c7811a; --danger:#d23f3f; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#0f1216; --surface:#171b21; --ink:#e8ecf1; --muted:#98a3b0; --line:#29303a; --primary:#8a97ff; --good:#3cc68f; --warn:#e6a648; --danger:#f07474; } }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:"Plus Jakarta Sans",system-ui,sans-serif; background:var(--bg); color:var(--ink); font-size:14px; }
+    header { display:flex; justify-content:space-between; align-items:center; gap:12px; padding:14px 24px; border-bottom:1px solid var(--line); flex-wrap:wrap; }
+    h1 { font-size:18px; margin:0; }
+    .graph { font-size:12px; padding:6px 10px; border-radius:99px; border:1px solid var(--line); }
+    .graph.ok { color:var(--good); } .graph.bad { color:var(--warn); }
+    main { padding:16px 24px 40px; max-width:1400px; margin:0 auto; }
+    .filters { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px; align-items:center; }
+    select, input, button { font:inherit; padding:8px 10px; border-radius:10px; border:1px solid var(--line); background:var(--surface); color:var(--ink); }
+    button { cursor:pointer; font-weight:600; }
+    .primary { background:var(--primary); color:#fff; border-color:var(--primary); }
+    .stats { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:14px; }
+    .stat { background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:10px 14px; min-width:130px; }
+    .stat b { display:block; font-size:22px; } .stat span { color:var(--muted); font-size:12px; }
+    .wrap { overflow-x:auto; background:var(--surface); border:1px solid var(--line); border-radius:14px; }
+    table { border-collapse:collapse; width:100%; min-width:980px; }
+    th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+    th { font-size:12px; color:var(--muted); font-weight:600; text-transform:uppercase; letter-spacing:.04em; }
+    tr.row { cursor:pointer; } tr.row:hover td { background:color-mix(in srgb, var(--primary) 6%, transparent); }
+    .tag { font-size:11px; padding:2px 8px; border-radius:99px; font-weight:700; white-space:nowrap; }
+    .si { background:rgba(210,63,63,.14); color:var(--danger); }
+    .ok { color:var(--good); } .pend { color:var(--warn); }
+    dialog { width:min(900px, 96vw); max-height:92vh; border:1px solid var(--line); border-radius:16px; padding:0; background:var(--surface); color:var(--ink); }
+    dialog .head { display:flex; justify-content:space-between; gap:8px; padding:12px 16px; border-bottom:1px solid var(--line); flex-wrap:wrap; }
+    dialog iframe { width:100%; height:70vh; border:0; background:#fff; }
+    .muted { color:var(--muted); }
+    .nueva { margin-left:auto; margin-right:8px; font-weight:700; color:var(--primary); text-decoration:none; }
+    #verEst { color:var(--primary); font-weight:600; margin-right:6px; }
+    .dbtns { display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+    @media (max-width: 640px) {
+      header, main { padding-left:16px; padding-right:16px; }
+      .filters > * { flex: 1 1 100%; }
+      .filters input { width:100%; }
+      .stat { min-width: calc(50% - 5px); flex:1; }
+      dialog iframe { height: 75vh; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Panel de orientación vocacional</h1>
+    <a class="nueva" href="/" target="_blank" rel="noopener">+ Nueva sesión</a>
+    <span class="graph" id="mail">Correo…</span>
+    <button id="probarCorreo" type="button">Enviar correo de prueba</button>
+    <span class="graph" id="graph">Graph…</span>
+  </header>
+  <main>
+    <div class="filters">
+      <input id="q" placeholder="Buscar nombre, municipio, colonia o correo" size="34" />
+      <select id="modo"><option value="">Lucía y Fabiola</option><option value="eleccion">Lucía · elegir carrera</option><option value="permanencia">Fabiola · ¿sigo en mi carrera?</option></select>
+      <select id="dictamen"><option value="">Todo dictamen</option><option value="continuar">Continuar</option><option value="continuar_apoyo">Continuar con apoyo</option><option value="reevaluar">Reevaluar</option><option value="explorar_cambio">Explorar cambio</option></select>
+      <select id="departamento"><option value="">Todos los departamentos</option></select>
+      <select id="nivel_economico"><option value="">Todo nivel económico</option><option value="baja">Baja</option><option value="media">Media</option><option value="alta">Alta</option></select>
+      <select id="zona"><option value="">Toda zona</option><option value="urbana">Urbana</option><option value="rural">Rural</option><option value="no_sabe">No sabe</option></select>
+      <select id="estado"><option value="">Todo estado</option><option value="en_curso">En curso</option><option value="finalizada">Finalizada</option><option value="incompleta">Incompleta</option><option value="abandonada">Abandonada</option></select>
+      <select id="carrera_elegida"><option value="">Toda carrera elegida</option></select>
+      <select id="alerta_bienestar"><option value="">Con y sin alerta</option><option value="si">Solo con alerta de bienestar</option></select>
+      <button id="csv">Exportar CSV</button>
+    </div>
+    <div class="stats" id="stats"></div>
+    <div class="wrap">
+      <table>
+        <thead><tr><th>Fecha</th><th>Orientadora</th><th>Estudiante</th><th>Ubicación</th><th>Zona</th><th>Nivel</th><th>Carrera</th><th>Elegida / dictamen</th><th>Alerta</th><th>Cita</th><th>Correo</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </main>
+  <dialog id="dlg">
+    <div class="head"><b id="dTitle"></b><span class="dbtns"><a id="verEst" target="_blank" rel="noopener">Abrir vista del estudiante</a> <button id="retry">Reintentar cita y correo</button> <button id="close">Cerrar</button></span></div>
+    <iframe id="frame" sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe>
+  </dialog>
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+  const F = ["q","modo","dictamen","departamento","nivel_economico","zona","estado","carrera_elegida","alerta_bienestar"];
+  let carreras = {}, actual = null, opcionesListas = false;
+  const DIC = { continuar: "Continuar", continuar_apoyo: "Continuar con apoyo", reevaluar: "Reevaluar", explorar_cambio: "Explorar cambio" };
+  const qs = () => new URLSearchParams(F.map((k) => [k, $(k).value]).filter(([,v]) => v)).toString();
+
+  async function cargar() {
+    const r = await fetch(`api/sesiones?${qs()}`); const d = await r.json();
+    carreras = d.carreras;
+    if (!opcionesListas) {
+      d.opciones.departamento.forEach((v) => $("departamento").insertAdjacentHTML("beforeend", `<option>${esc(v)}</option>`));
+      d.opciones.carrera_elegida.forEach((v) => $("carrera_elegida").insertAdjacentHTML("beforeend", `<option value="${esc(v)}">${esc(carreras[v] || v)}</option>`));
+      opcionesListas = true;
+    }
+    const g = d.graph; const ok = g.calendario && g.psicologo;
+    $("graph").className = "graph " + (ok ? "ok" : "bad");
+    $("graph").textContent = ok ? `Teams listo (${g.cuenta})${g.expira ? " · expira " + g.expira.replace("T"," ") : ""}` : `Teams: ${g.calendario ? "falta PSICOLOGO_EMAIL" : "sin permiso de calendario (las citas llegan por correo)"}`;
+    const m = d.correo || {};
+    $("mail").className = "graph " + (m.listo ? "ok" : "bad");
+    $("mail").textContent = m.mensaje || "Correo sin configurar";
+    const f = d.filas;
+    const cuenta = (fn) => f.filter(fn).length;
+    $("stats").innerHTML = [
+      ["Entrevistas", f.length], ["Con Fabiola", cuenta((x) => x.modo === "permanencia")], ["Finalizadas", cuenta((x) => x.estado === "finalizada")], ["Zona rural", cuenta((x) => x.zona === "rural")],
+      ["Nivel económico bajo", cuenta((x) => x.nivel_economico === "baja")], ["Con alerta", cuenta((x) => x.alerta_bienestar === "si")],
+      ["Pendientes de envío", cuenta((x) => x.correo_estado === "pendiente" || x.cita_estado === "pendiente")],
+    ].map(([l, n]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join("");
+    $("rows").innerHTML = f.map((x) => `<tr class="row" data-id="${esc(x.id)}">
+      <td>${esc((x.creada || "").slice(0,16).replace("T"," "))}</td>
+      <td>${x.modo === "permanencia" ? "Fabiola" : "Lucía"}</td>
+      <td>${esc(x.nombre || "—")}<br><span class="muted">${esc(x.correo || "")}</span></td>
+      <td>${esc([x.colonia, x.municipio, x.departamento].filter(Boolean).join(", ") || "—")}</td>
+      <td>${esc(x.zona || "—")}</td><td>${esc(x.nivel_economico || "—")}</td>
+      <td>${esc(carreras[x.carrera_top] || x.carrera_top || "—")}</td><td>${x.modo === "permanencia" ? esc(DIC[x.dictamen] || "—") : esc(carreras[x.carrera_elegida] || "—")}</td>
+      <td>${x.alerta_bienestar === "si" ? '<span class="tag si">ALERTA</span>' : ""}</td>
+      <td class="${x.cita_estado === "agendada" ? "ok" : "pend"}">${esc(x.cita_estado || "")}</td>
+      <td class="${x.correo_estado === "enviado" ? "ok" : "pend"}">${esc(x.correo_estado || "")}</td></tr>`).join("") || '<tr><td colspan="11" class="muted">Sin entrevistas con estos filtros.</td></tr>';
+    document.querySelectorAll("tr.row").forEach((tr) => tr.onclick = () => abrir(tr.dataset.id));
+    const h = location.hash.slice(1); if (h && !actual) abrir(h);
+  }
+  async function abrir(id) {
+    const r = await fetch(`api/sesiones/${encodeURIComponent(id)}`); if (!r.ok) return;
+    const d = await r.json(); actual = id;
+    $("dTitle").textContent = `${d.doc.estudiante?.nombre || "Estudiante"} · ${d.doc.estado}`;
+    $("verEst").href = `/#${id}`;
+    $("frame").srcdoc = `<base target="_blank"><body style="margin:16px">${d.html}</body>`;
+    $("dlg").showModal(); history.replaceState(null, "", `#${id}`);
+  }
+  $("close").onclick = () => { $("dlg").close(); actual = null; history.replaceState(null, "", location.pathname); };
+  $("retry").onclick = async () => { $("retry").textContent = "Reintentando…"; await fetch(`api/sesiones/${actual}/reintentar`, { method: "POST" }); $("retry").textContent = "Reintentar cita y correo"; await abrir(actual); cargar(); };
+  $("csv").onclick = () => { location.href = `api/export.csv?${qs()}`; };
+  $("probarCorreo").onclick = async () => {
+    const b = $("probarCorreo"); b.disabled = true; b.textContent = "Enviando…";
+    try {
+      const r = await (await fetch("api/correo/prueba", { method: "POST" })).json();
+      b.textContent = r.ok ? `Enviado a ${r.para} ✓` : "No se pudo enviar";
+      if (!r.ok) { $("mail").className = "graph bad"; $("mail").textContent = r.error; }
+    } catch (e) { b.textContent = "No se pudo enviar"; }
+    setTimeout(() => { b.textContent = "Enviar correo de prueba"; b.disabled = false; }, 6000);
+  };
+  F.forEach((k) => $(k).addEventListener(k === "q" ? "input" : "change", () => cargar()));
+  cargar();
+})();
+</script>
+</body>
+</html>

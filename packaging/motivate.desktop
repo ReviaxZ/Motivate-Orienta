@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Motivate
+GenericName=Orientacion vocacional por voz
+Comment=Lucia y Fabiola: web principal en el puerto 7878 y agentes de voz con IA
+Exec=motivate
+Icon=motivate
+Terminal=false
+Categories=Education;Network;
+Keywords=orientacion;vocacional;voz;IA;livekit;lucia;fabiola;
+StartupNotify=true
+StartupWMClass=Motivate

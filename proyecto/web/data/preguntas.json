@@ -1,0 +1,25 @@
+{
+  "eleccion": {
+    "disfruta": {"es": "¿Qué es lo que más disfrutas hacer en tu día?", "en": "What do you enjoy doing most in your day?"},
+    "clase": {"es": "¿Cuál es la clase que más disfrutas?", "en": "Which class do you enjoy the most?"},
+    "descripcion": {"es": "¿Cómo te describirías a ti mismo?", "en": "How would you describe yourself?"},
+    "ambiente": {"es": "¿En qué ambiente te gustaría trabajar? Por ejemplo en una oficina, en el campo, en un laboratorio, en un hospital o en un aula.",
+                 "en": "Where would you like to work? For example in an office, outdoors, in a lab, in a hospital or in a classroom."},
+    "economia": {"es": "Para recomendarte opciones realistas, ¿cuál es tu situación económica actual? Por ejemplo, si tu familia podría pagar una universidad privada, solo una pública, o si necesitarías beca o trabajar mientras estudias.",
+                 "en": "So I can suggest realistic options, what is your current financial situation? For example, could your family pay for a private university, only a public one, or would you need a scholarship or to work while you study?"},
+    "ubicacion": {"es": "¿En qué país, departamento y municipio vives, y en qué colonia, barrio o aldea?",
+                  "en": "Which country, department and municipality do you live in, and in which neighborhood or village?"},
+    "extra": {"es": "¿Hay algo más que te gustaría contarme sobre tu situación actual?", "en": "Is there anything else you would like to tell me about your current situation?"}
+  },
+  "caso": {
+    "carrera": {"es": "¿Qué carrera estudias, en qué universidad y en qué año vas?", "en": "What are you studying, at which university, and what year are you in?"},
+    "motivos": {"es": "¿Qué es lo que te hace dudar de seguir en tu carrera?", "en": "What makes you doubt whether to stay in your degree?"},
+    "satisfaccion": {"es": "Del uno al cinco, donde uno es nada y cinco es muchísimo, ¿qué tanto te gusta tu carrera hoy?",
+                     "en": "From one to five, where one is not at all and five is very much, how much do you like your degree today?"}
+  },
+  "sentimiento": {"es": "Terminaste la etapa {etapa}. Del uno al cinco, ¿cómo te sentiste en esta etapa y por qué?",
+                  "en": "You finished the {etapa} stage. From one to five, how did you feel during this stage, and why?"},
+  "etapa": {"es": {"basico": "básica", "intermedio": "intermedia", "avanzado": "avanzada"},
+            "en": {"basico": "basic", "intermedio": "intermediate", "avanzado": "advanced"}},
+  "salto": {"es": "Está bien, pasemos a la siguiente.", "en": "Okay, let's move on to the next one."}
+}

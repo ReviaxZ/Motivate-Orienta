@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Orienta · Orientación vocacional</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/vendor/leaflet/leaflet.css" />
+  <link rel="stylesheet" href="/orientador/styles.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
+        <circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-width="2.4" />
+        <path d="M21.5 10.5 18 18l-7.5 3.5L14 14z" fill="var(--accent)" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" />
+        <circle cx="16" cy="16" r="1.6" fill="currentColor" />
+      </svg>
+      <div>
+        <strong>Orienta</strong>
+        <span>Descubre tu carrera</span>
+      </div>
+    </div>
+    <div class="pill" id="pill"><span class="dot"></span><span id="pillText">Sin conectar</span></div>
+  </header>
+
+  <div class="shell">
+  <nav class="rail" aria-label="Orientadoras">
+    <p class="rail-title">Orientadoras</p>
+    <button class="rail-item" data-modo="eleccion" id="navLucia" type="button">
+      <span class="avatar a-lucia">L</span>
+      <span class="rail-txt"><b>Lucía</b><small>¿Qué carrera estudio?</small></span>
+    </button>
+    <button class="rail-item" data-modo="permanencia" id="navFabiola" type="button">
+      <span class="avatar a-fabiola">F</span>
+      <span class="rail-txt"><b>Fabiola</b><small>¿Sigo en mi carrera?</small></span>
+    </button>
+    <div class="rail-sep"></div>
+    <button class="rail-item rail-act" id="nuevaSesion" type="button" title="Empezar un registro nuevo desde cero">
+      <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      <span class="rail-txt"><b>Nueva sesión</b></span>
+    </button>
+    <a class="rail-item rail-act" id="todasSesiones" href="/panel/" target="_blank" rel="noopener" title="Ver todas las sesiones registradas">
+      <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><line x1="8" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="20" y2="12"/><line x1="8" y1="18" x2="20" y2="18"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg></span>
+      <span class="rail-txt"><b>Todas las sesiones</b></span>
+    </a>
+  </nav>
+  <main class="layout" id="app">
+    <!-- Columna lateral: conversación + ficha -->
+    <aside class="side">
+      <section class="card call" id="call">
+        <div class="call-row">
+          <div class="orb-wrap">
+            <div class="ring" id="ringAgent"></div>
+            <div class="ring r2" id="ringUser"></div>
+            <button class="mic" id="micBtn" aria-label="Iniciar conversación con la orientadora">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="9" y="2" width="6" height="12" rx="3" /><path d="M5 10v1a7 7 0 0 0 14 0v-1" /><line x1="12" y1="18" x2="12" y2="22" />
+              </svg>
+            </button>
+          </div>
+          <div class="call-text">
+            <p class="who" id="quien">Lucía · orientadora vocacional</p>
+            <p class="status" id="status">Toca el micrófono para empezar</p>
+            <p class="timer" id="timer"></p>
+          </div>
+          <button class="hangup" id="hangBtn" aria-label="Terminar conversación" title="Terminar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18" /><line x1="18" y1="6" x2="6" y2="18" /></svg>
+          </button>
+        </div>
+        <div class="lang">
+          <label for="idioma" id="idiomaLbl">Idioma de Lucía</label>
+          <select id="idioma"></select>
+        </div>
+        <p class="lang-note" id="idiomaNota" hidden></p>
+        <p class="mic-note" id="micNota" hidden>Micrófono en pausa mientras ves el video. Pausa el video para hablar con Lucía.</p>
+        <p class="consent" id="consent">Al empezar aceptas que tus respuestas se guarden y se compartan con el equipo de psicología para darte seguimiento.</p>
+        <p class="error" id="error" role="alert"></p>
+        <details class="transcript-box" id="transcriptBox">
+          <summary>Ver la conversación</summary>
+          <div class="transcript" id="transcript"></div>
+        </details>
+      </section>
+
+      <section class="card ficha">
+        <div class="card-head">
+          <h2 id="fichaTitulo">Tu ficha</h2>
+          <span class="progress-label" id="progressLabel">0 de 7</span>
+        </div>
+        <div class="progress"><div id="progressBar"></div></div>
+        <ol class="steps" id="steps"></ol>
+        <button class="primary full" id="verResultados" type="button" hidden>Ver mis resultados</button>
+      </section>
+    </aside>
+
+    <!-- Contenido principal -->
+    <section class="content">
+      <div id="vistaL">
+      <section class="hero" id="hero">
+        <p class="eyebrow">Orientación vocacional por voz</p>
+        <h1>Conversa 5 minutos y descubre qué carreras van contigo</h1>
+        <p class="lead">Lucía te hará unas preguntas sencillas. Con tus respuestas, tu situación económica y el lugar donde vives, te mostramos carreras, universidades cercanas, becas y un plan para empezar.</p>
+        <ol class="how">
+          <li><span>1</span><div><b>Conversamos</b><p>Qué disfrutas, tu clase favorita, cómo eres y dónde vives.</p></div></li>
+          <li><span>2</span><div><b>Analizamos</b><p>Tu afinidad con cada carrera y qué tan posible es estudiarla.</p></div></li>
+          <li><span>3</span><div><b>Te mostramos el camino</b><p>Video, temario, mapa de universidades, becas y cita con un psicólogo.</p></div></li>
+        </ol>
+      </section>
+
+      <div id="resultados" hidden>
+        <section class="card">
+          <div class="card-head">
+            <h2>Carreras para ti</h2>
+            <details class="how-calc">
+              <summary>¿Cómo se calcula?</summary>
+              <p><b>Afinidad</b>: qué tanto tus gustos, clases, forma de ser y ambiente ideal coinciden con la carrera.
+                <b>Viabilidad</b>: qué tan posible es estudiarla según lo que puedes costear, la distancia a la sede y si hay opción a distancia.
+                Tu situación económica pesa <b id="pesoEco">30%</b> del puntaje. Tu calificación del video también lo ajusta.</p>
+            </details>
+          </div>
+          <div class="careers" id="careers"></div>
+        </section>
+
+        <section class="card focus" id="focus">
+          <div class="focus-head">
+            <div>
+              <p class="eyebrow" id="fArea"></p>
+              <h2 id="fNombre"></h2>
+              <p class="muted" id="fDesc"></p>
+            </div>
+            <span class="badge chosen" id="fElegida" hidden>Tu elección</span>
+          </div>
+          <div class="focus-grid">
+            <div>
+              <div class="video" id="video"></div>
+              <a class="link small" id="videoMas" target="_blank" rel="noopener" hidden>Ver más videos de esta carrera en YouTube</a>
+              <div class="rating">
+                <span>¿Qué tanto te gustó?</span>
+                <div class="stars" id="stars" role="radiogroup" aria-label="Calificación del video"></div>
+              </div>
+            </div>
+            <div class="facts">
+              <div class="fact"><span>Duración</span><b id="fDur"></b></div>
+              <div class="fact-block"><span>Por qué te puede gustar</span><ul id="fRazones"></ul></div>
+              <div class="fact-block"><span>Dónde trabajarías</span><ul id="fCampo"></ul></div>
+              <div class="fact-block"><span>Plan de estudios y contacto</span><ul class="links" id="fPlanes"></ul></div>
+              <div class="fact-block"><span>Ruta corta para empezar</span><ul id="fAlt"></ul></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-head">
+            <h2>Temario</h2>
+            <a class="link" id="planOficial" target="_blank" rel="noopener" hidden>Plan oficial</a>
+          </div>
+          <p class="muted small">Temario de referencia; cada universidad tiene su propio plan de estudios.</p>
+          <div class="tabs" id="tTabs" role="tablist"></div>
+          <ul class="subjects" id="tList"></ul>
+        </section>
+
+        <section class="card">
+          <div class="card-head">
+            <h2>Dónde estudiarla</h2>
+            <button class="ghost small-btn" id="gpsBtn" type="button">Usar mi ubicación exacta</button>
+          </div>
+          <div class="chips" id="chips"></div>
+          <div class="map" id="map"></div>
+          <ul class="unis" id="unis"></ul>
+        </section>
+
+        <section class="card plan" id="plan" hidden>
+          <div class="card-head"><h2>Tu plan directo</h2></div>
+          <p class="banner" id="planMotivo"></p>
+          <ol class="phases" id="phases"></ol>
+        </section>
+
+        <section class="card">
+          <div class="card-head"><h2>Otras opciones para ti</h2></div>
+          <p class="muted small">Con la universidad pública o gratuita más cercana a ti.</p>
+          <ul class="extras" id="extras"></ul>
+        </section>
+
+      </div>
+      </div>
+      <!-- Vista de Fabiola: ¿sigo en mi carrera? -->
+      <div id="vistaF" hidden>
+        <section class="hero" id="heroF">
+          <p class="eyebrow">Orientación universitaria por voz</p>
+          <h1>¿Sigo en mi carrera o cambio?</h1>
+          <p class="lead">Fabiola conversa contigo sobre tu caso, te hace un test corto de tu carrera de lo básico a lo avanzado, te pregunta cómo te sentiste en cada etapa y te da un dictamen orientativo.</p>
+          <ol class="how how4">
+            <li><span>1</span><div><b>Tu caso</b><p>Carrera, año y qué te hace dudar.</p></div></li>
+            <li><span>2</span><div><b>Test en 3 etapas</b><p>Seis preguntas: básicas, intermedias y avanzadas.</p></div></li>
+            <li><span>3</span><div><b>Cómo te sentiste</b><p>Tu bienestar pesa tanto como tus respuestas.</p></div></li>
+            <li><span>4</span><div><b>Dictamen</b><p>Si es recomendable seguir, con qué apoyo, o explorar otra carrera.</p></div></li>
+          </ol>
+        </section>
+
+        <section class="card" id="casoF" hidden>
+          <div class="card-head"><h2>Tu caso</h2><span class="badge" id="casoAnio"></span></div>
+          <div class="caso-grid">
+            <div><span class="k">Carrera</span><b id="casoCarrera">—</b></div>
+            <div><span class="k">Universidad</span><b id="casoUni">—</b></div>
+            <div><span class="k">Qué tanto te gusta hoy</span><div class="meter" id="casoSatis"></div></div>
+          </div>
+          <div class="tags" id="casoMotivos"></div>
+        </section>
+
+        <section class="card" id="testF" hidden>
+          <div class="card-head"><h2 id="testTitulo">Test de tu carrera</h2><span class="muted small" id="testProg"></span></div>
+          <ol class="etapas" id="etapas"></ol>
+          <div class="q-box" id="qBox"></div>
+        </section>
+
+        <section class="card" id="dictamenF" hidden>
+          <div class="card-head"><h2>Dictamen</h2><span class="muted small">Orientativo: la decisión es tuya</span></div>
+          <div class="dic-top">
+            <div class="gauge" id="gauge"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="50" class="g-bg"/><circle cx="60" cy="60" r="50" class="g-fg" id="gaugeArc"/></svg><div><b id="gaugeVal">0</b><small>índice de permanencia</small></div></div>
+            <div class="dic-txt">
+              <span class="decision" id="dicDecision"></span>
+              <p id="dicTexto"></p>
+              <p class="muted small" id="dicTest"></p>
+            </div>
+          </div>
+          <div class="comp" id="dicComp"></div>
+          <table class="etapa-tabla" id="dicEtapas"></table>
+          <h3 class="sub">Recomendaciones</h3>
+          <ul class="recs" id="dicRecs"></ul>
+          <button class="primary" id="irLucia" type="button" hidden>Explorar otras carreras con Lucía</button>
+        </section>
+      </div>
+
+        <section class="card agenda" id="agenda" hidden>
+          <div class="card-head"><h2>Habla con un psicólogo</h2></div>
+          <div id="agendaBody">
+            <p class="muted">Agenda una reunión por Teams para seguir conversando sobre tu futuro.</p>
+            <button class="primary" id="agendaOpen" type="button">Quiero agendar</button>
+          </div>
+        </section>
+    </section>
+  </main>
+  </div>
+
+  <div id="audio" hidden></div>
+  <script src="/livekit-client.umd.js"></script>
+  <script src="/vendor/leaflet/leaflet.js"></script>
+  <script src="/orientador/app.js"></script>
+</body>
+</html>

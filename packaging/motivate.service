@@ -1,0 +1,19 @@
+[Unit]
+Description=Motivate - web principal (puerto 7878) y agentes de voz, sin ventana
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=__USUARIO__
+Group=__GRUPO__
+Environment=HOME=__HOME__
+WorkingDirectory=__HOME__
+ExecStart=/usr/local/bin/motivate --headless
+Restart=on-failure
+RestartSec=5
+KillMode=mixed
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target

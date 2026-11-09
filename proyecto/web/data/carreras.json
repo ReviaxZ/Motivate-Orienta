@@ -1,0 +1,2841 @@
+[
+  {
+    "id": "sistemas",
+    "nombre": "Ingeniería en Sistemas / Computación",
+    "area": "Tecnología",
+    "descripcion": "Diseña y construye software, sistemas de información y redes que resuelven problemas reales.",
+    "duracion": "5 años",
+    "perfil": {
+      "intereses": {
+        "tecnologia": 3,
+        "videojuegos": 2,
+        "numeros_calculos": 2,
+        "investigar_experimentar": 1,
+        "construir_reparar": 1
+      },
+      "materias": {
+        "informatica": 3,
+        "matematicas": 3,
+        "fisica": 1,
+        "ingles": 1
+      },
+      "rasgos": {
+        "analitico": 3,
+        "curioso": 2,
+        "independiente": 1,
+        "detallista": 2,
+        "creativo": 1
+      },
+      "ambientes": {
+        "oficina": 2,
+        "remoto_casa": 3,
+        "laboratorio": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "T5rKgGK_9cY",
+        "7_LMNLefzmI",
+        "OAUMs36IpCc"
+      ],
+      "busqueda": "qué estudia la carrera de Ingeniería en Sistemas y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Programación I",
+          "Cálculo I",
+          "Álgebra",
+          "Introducción a la ingeniería"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Programación II",
+          "Estructuras de datos",
+          "Cálculo II",
+          "Física"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Bases de datos",
+          "Sistemas operativos",
+          "Redes de computadoras",
+          "Estadística"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Ingeniería de software",
+          "Desarrollo web",
+          "Seguridad informática",
+          "Inteligencia artificial"
+        ]
+      },
+      {
+        "nivel": "Quinto año",
+        "materias": [
+          "Arquitectura de sistemas",
+          "Gestión de proyectos",
+          "Práctica profesional"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Desarrollador de software",
+      "Administrador de redes y servidores",
+      "Analista de datos",
+      "Soporte TI y ciberseguridad"
+    ],
+    "alternativas_cortas": [
+      "Técnico en desarrollo de aplicaciones",
+      "Cursos gratuitos de programación y redes (INFOP, Fundación Carlos Slim)"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "informatica_administrativa",
+    "nombre": "Informática Administrativa",
+    "area": "Tecnología",
+    "descripcion": "Une la tecnología con la gestión de empresas: sistemas, datos y procesos de negocio.",
+    "duracion": "4 a 5 años",
+    "perfil": {
+      "intereses": {
+        "tecnologia": 3,
+        "organizar_planificar": 2,
+        "negocios_vender": 1,
+        "numeros_calculos": 1
+      },
+      "materias": {
+        "informatica": 3,
+        "contabilidad": 1,
+        "matematicas": 2,
+        "emprendimiento": 1
+      },
+      "rasgos": {
+        "organizado": 3,
+        "analitico": 2,
+        "responsable": 1,
+        "trabajo_equipo": 1
+      },
+      "ambientes": {
+        "oficina": 3,
+        "remoto_casa": 2
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "fBPkuGGAoDY",
+        "9I7We2YMBkg",
+        "-_7uEkF7r7A"
+      ],
+      "busqueda": "qué estudia la carrera de Informática Administrativa y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Fundamentos de informática",
+          "Matemática",
+          "Administración general",
+          "Contabilidad"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Programación",
+          "Bases de datos",
+          "Estadística",
+          "Economía"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Análisis y diseño de sistemas",
+          "Redes",
+          "Finanzas",
+          "Sistemas de información"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Auditoría informática",
+          "Comercio electrónico",
+          "Gestión de proyectos TI",
+          "Práctica profesional"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Analista de sistemas",
+      "Administrador de bases de datos",
+      "Soporte y gestión TI en empresas"
+    ],
+    "alternativas_cortas": [
+      "Técnico en redes o desarrollo web",
+      "Cursos de ofimática y datos (INFOP)"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "medicina",
+    "nombre": "Medicina y Cirugía",
+    "area": "Salud",
+    "descripcion": "Previene, diagnostica y trata enfermedades para cuidar la vida y la salud de las personas.",
+    "duracion": "7 a 8 años (incluye internado y servicio social)",
+    "perfil": {
+      "intereses": {
+        "salud_cuidado": 3,
+        "ayudar_personas": 3,
+        "investigar_experimentar": 2
+      },
+      "materias": {
+        "biologia": 3,
+        "quimica": 3,
+        "ciencias_naturales": 2,
+        "fisica": 1
+      },
+      "rasgos": {
+        "responsable": 3,
+        "empatico": 3,
+        "paciente": 2,
+        "analitico": 2,
+        "detallista": 1
+      },
+      "ambientes": {
+        "hospital_clinica": 3,
+        "laboratorio": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "uZD307Nk7Ps",
+        "kbd15lkHYQQ",
+        "A4QpGsxVyyI"
+      ],
+      "busqueda": "qué estudia la carrera de Medicina y Cirugía y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Biología celular",
+          "Química",
+          "Anatomía",
+          "Introducción a la salud pública"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Fisiología",
+          "Bioquímica",
+          "Histología",
+          "Embriología"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Microbiología y parasitología",
+          "Farmacología",
+          "Patología",
+          "Semiología"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Medicina interna",
+          "Pediatría",
+          "Ginecología y obstetricia",
+          "Cirugía"
+        ]
+      },
+      {
+        "nivel": "Quinto año",
+        "materias": [
+          "Psiquiatría",
+          "Medicina comunitaria",
+          "Especialidades clínicas"
+        ]
+      },
+      {
+        "nivel": "Sexto año",
+        "materias": [
+          "Internado rotatorio",
+          "Servicio social"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Médico general",
+      "Centros de salud y hospitales",
+      "Investigación y salud pública"
+    ],
+    "alternativas_cortas": [
+      "Técnico en urgencias médicas",
+      "Auxiliar de enfermería"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "enfermeria",
+    "nombre": "Enfermería",
+    "area": "Salud",
+    "descripcion": "Cuida, acompaña y educa a pacientes y comunidades en hospitales, centros de salud y hogares.",
+    "duracion": "4 a 5 años",
+    "perfil": {
+      "intereses": {
+        "salud_cuidado": 3,
+        "ayudar_personas": 3,
+        "ensenar_explicar": 1
+      },
+      "materias": {
+        "biologia": 3,
+        "quimica": 1,
+        "ciencias_naturales": 2
+      },
+      "rasgos": {
+        "empatico": 3,
+        "paciente": 3,
+        "responsable": 3,
+        "trabajo_equipo": 2
+      },
+      "ambientes": {
+        "hospital_clinica": 3,
+        "calle_viajando": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "NYhdJVSb-Ro",
+        "Ai8l_1-NME0",
+        "c-kMjwMYBFk"
+      ],
+      "busqueda": "qué estudia la carrera de Enfermería y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Anatomía y fisiología",
+          "Fundamentos de enfermería",
+          "Química",
+          "Psicología"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Microbiología",
+          "Farmacología",
+          "Enfermería médico quirúrgica",
+          "Nutrición"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Enfermería materno infantil",
+          "Pediatría",
+          "Salud comunitaria",
+          "Salud mental"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Administración en enfermería",
+          "Investigación",
+          "Práctica hospitalaria"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Hospitales y clínicas",
+      "Centros de salud comunitarios",
+      "Atención domiciliaria"
+    ],
+    "alternativas_cortas": [
+      "Auxiliar de enfermería",
+      "Técnico en urgencias médicas"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "odontologia",
+    "nombre": "Odontología",
+    "area": "Salud",
+    "descripcion": "Cuida la salud de los dientes y la boca con prevención, tratamientos y cirugía.",
+    "duracion": "5 a 6 años",
+    "perfil": {
+      "intereses": {
+        "salud_cuidado": 3,
+        "ayudar_personas": 2,
+        "construir_reparar": 1,
+        "arte_dibujo": 1
+      },
+      "materias": {
+        "biologia": 3,
+        "quimica": 2
+      },
+      "rasgos": {
+        "detallista": 3,
+        "practico": 3,
+        "paciente": 2,
+        "responsable": 2
+      },
+      "ambientes": {
+        "hospital_clinica": 3
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "YO-ruJAiheA",
+        "qiEyJfdkmxs",
+        "c5IQ6dSHItA"
+      ],
+      "busqueda": "qué estudia la carrera de Odontología y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Biología",
+          "Química",
+          "Anatomía de cabeza y cuello",
+          "Histología"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Fisiología",
+          "Materiales dentales",
+          "Microbiología",
+          "Radiología"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Operatoria dental",
+          "Periodoncia",
+          "Endodoncia",
+          "Farmacología"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Prostodoncia",
+          "Odontopediatría",
+          "Cirugía oral",
+          "Ortodoncia"
+        ]
+      },
+      {
+        "nivel": "Quinto año",
+        "materias": [
+          "Clínica integral",
+          "Odontología comunitaria",
+          "Servicio social"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Clínica dental propia",
+      "Hospitales y centros de salud",
+      "Especialidades"
+    ],
+    "alternativas_cortas": [
+      "Asistente dental"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "nutricion",
+    "nombre": "Nutrición",
+    "area": "Salud",
+    "descripcion": "Estudia los alimentos y cómo una buena alimentación previene enfermedades.",
+    "duracion": "4 a 5 años",
+    "perfil": {
+      "intereses": {
+        "salud_cuidado": 3,
+        "cocinar": 2,
+        "ayudar_personas": 2,
+        "deportes": 1
+      },
+      "materias": {
+        "biologia": 3,
+        "quimica": 2
+      },
+      "rasgos": {
+        "empatico": 2,
+        "organizado": 2,
+        "comunicativo": 2,
+        "responsable": 1
+      },
+      "ambientes": {
+        "hospital_clinica": 2,
+        "oficina": 1,
+        "laboratorio": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "_st13mlkHmE",
+        "KPR9u5oqztM",
+        "PG9b58SLjm0"
+      ],
+      "busqueda": "qué estudia la carrera de Nutrición y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Química",
+          "Biología",
+          "Introducción a la nutrición",
+          "Anatomía"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Bioquímica",
+          "Ciencia de los alimentos",
+          "Fisiología",
+          "Nutrición humana"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Dietoterapia",
+          "Nutrición materno infantil",
+          "Educación nutricional",
+          "Salud pública"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Nutrición deportiva",
+          "Administración de servicios de alimentación",
+          "Práctica clínica"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Hospitales y clínicas",
+      "Programas de nutrición comunitaria",
+      "Industria alimentaria y deporte"
+    ],
+    "alternativas_cortas": [
+      "Cursos de manipulación de alimentos (INFOP)"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "quimica_farmacia",
+    "nombre": "Química y Farmacia",
+    "area": "Salud",
+    "descripcion": "Investiga, produce y controla medicamentos y orienta su uso seguro.",
+    "duracion": "5 años",
+    "perfil": {
+      "intereses": {
+        "investigar_experimentar": 3,
+        "salud_cuidado": 2,
+        "numeros_calculos": 1
+      },
+      "materias": {
+        "quimica": 3,
+        "biologia": 2,
+        "matematicas": 1
+      },
+      "rasgos": {
+        "detallista": 3,
+        "analitico": 2,
+        "responsable": 2,
+        "organizado": 1
+      },
+      "ambientes": {
+        "laboratorio": 3,
+        "hospital_clinica": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "P3S03JQnLFY",
+        "CSPSnjVygdo",
+        "v6njsT1u0wA"
+      ],
+      "busqueda": "qué estudia la carrera de Química y Farmacia y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Química general",
+          "Biología",
+          "Matemática",
+          "Física"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Química orgánica",
+          "Química analítica",
+          "Fisiología",
+          "Bioquímica"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Farmacognosia",
+          "Farmacología",
+          "Microbiología",
+          "Tecnología farmacéutica"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Control de calidad",
+          "Farmacia hospitalaria",
+          "Toxicología",
+          "Legislación farmacéutica"
+        ]
+      },
+      {
+        "nivel": "Quinto año",
+        "materias": [
+          "Atención farmacéutica",
+          "Práctica profesional"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Farmacias y hospitales",
+      "Laboratorios farmacéuticos",
+      "Control de calidad"
+    ],
+    "alternativas_cortas": [
+      "Auxiliar de farmacia"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "microbiologia",
+    "nombre": "Microbiología",
+    "area": "Salud",
+    "descripcion": "Estudia microorganismos para diagnosticar enfermedades y proteger alimentos y ambiente.",
+    "duracion": "5 años",
+    "perfil": {
+      "intereses": {
+        "investigar_experimentar": 3,
+        "salud_cuidado": 2,
+        "naturaleza_ambiente": 1
+      },
+      "materias": {
+        "biologia": 3,
+        "quimica": 3
+      },
+      "rasgos": {
+        "detallista": 3,
+        "curioso": 3,
+        "analitico": 2,
+        "paciente": 1
+      },
+      "ambientes": {
+        "laboratorio": 3,
+        "hospital_clinica": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "TAP3c7VDegw",
+        "bG41mpGrwEw",
+        "APd-yyjoHn4"
+      ],
+      "busqueda": "qué estudia la carrera de Microbiología y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Biología general",
+          "Química general",
+          "Matemática",
+          "Física"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Química orgánica",
+          "Bioquímica",
+          "Microbiología general",
+          "Genética"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Bacteriología",
+          "Parasitología",
+          "Virología",
+          "Inmunología"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Micología",
+          "Microbiología de alimentos",
+          "Hematología",
+          "Diagnóstico clínico"
+        ]
+      },
+      {
+        "nivel": "Quinto año",
+        "materias": [
+          "Biología molecular",
+          "Práctica de laboratorio clínico"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Laboratorios clínicos",
+      "Control de alimentos y agua",
+      "Investigación"
+    ],
+    "alternativas_cortas": [
+      "Asistente de laboratorio"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "psicologia",
+    "nombre": "Psicología",
+    "area": "Ciencias sociales",
+    "descripcion": "Comprende cómo pensamos, sentimos y actuamos para ayudar a personas, familias y organizaciones.",
+    "duracion": "5 años",
+    "perfil": {
+      "intereses": {
+        "ayudar_personas": 3,
+        "investigar_experimentar": 2,
+        "leer_escribir": 1,
+        "hablar_comunicar": 1
+      },
+      "materias": {
+        "filosofia_psicologia": 3,
+        "biologia": 1,
+        "estudios_sociales": 2,
+        "espanol_literatura": 1
+      },
+      "rasgos": {
+        "empatico": 3,
+        "paciente": 2,
+        "comunicativo": 2,
+        "curioso": 2,
+        "tranquilo": 1
+      },
+      "ambientes": {
+        "oficina": 2,
+        "hospital_clinica": 2,
+        "aula": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "QwK8pp7oyCg",
+        "j5qRYcEXyis",
+        "AXXk3wGh634"
+      ],
+      "busqueda": "qué estudia la carrera de Psicología y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Introducción a la psicología",
+          "Biología del comportamiento",
+          "Filosofía",
+          "Sociología"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Psicología del desarrollo",
+          "Estadística",
+          "Teorías de la personalidad",
+          "Psicología social"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Psicopatología",
+          "Evaluación psicológica",
+          "Neuropsicología",
+          "Psicología educativa"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Psicoterapia",
+          "Psicología organizacional",
+          "Investigación",
+          "Ética profesional"
+        ]
+      },
+      {
+        "nivel": "Quinto año",
+        "materias": [
+          "Práctica supervisada",
+          "Seminario de graduación"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Clínicas y hospitales",
+      "Orientación en colegios",
+      "Recursos humanos",
+      "ONG y programas sociales"
+    ],
+    "alternativas_cortas": [
+      "Técnico en desarrollo y cuidado infantil"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "trabajo_social",
+    "nombre": "Trabajo Social",
+    "area": "Ciencias sociales",
+    "descripcion": "Acompaña a familias y comunidades para mejorar su bienestar y acceso a derechos.",
+    "duracion": "4 a 5 años",
+    "perfil": {
+      "intereses": {
+        "ayudar_personas": 3,
+        "debatir_justicia": 2,
+        "organizar_planificar": 1,
+        "hablar_comunicar": 1
+      },
+      "materias": {
+        "estudios_sociales": 3,
+        "filosofia_psicologia": 2,
+        "espanol_literatura": 1
+      },
+      "rasgos": {
+        "empatico": 3,
+        "sociable": 2,
+        "comunicativo": 2,
+        "trabajo_equipo": 2
+      },
+      "ambientes": {
+        "calle_viajando": 3,
+        "oficina": 1,
+        "campo_aire_libre": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "I2P86_yyDpo",
+        "IPrpC3SXyRw",
+        "V-Fwpcf7ZdU"
+      ],
+      "busqueda": "qué estudia la carrera de Trabajo Social y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Introducción al trabajo social",
+          "Sociología",
+          "Psicología general",
+          "Realidad nacional"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Metodología de intervención",
+          "Derechos humanos",
+          "Familia y comunidad",
+          "Estadística"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Políticas sociales",
+          "Gestión de proyectos sociales",
+          "Investigación social"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Trabajo social comunitario",
+          "Práctica profesional",
+          "Seminario"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Programas sociales del Estado",
+      "ONG",
+      "Hospitales y escuelas"
+    ],
+    "alternativas_cortas": [
+      "Cursos de liderazgo comunitario"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "derecho",
+    "nombre": "Derecho",
+    "area": "Ciencias sociales",
+    "descripcion": "Defiende los derechos de las personas y asesora en leyes, contratos y justicia.",
+    "duracion": "5 años",
+    "perfil": {
+      "intereses": {
+        "debatir_justicia": 3,
+        "leer_escribir": 2,
+        "hablar_comunicar": 2,
+        "liderar": 1
+      },
+      "materias": {
+        "estudios_sociales": 3,
+        "espanol_literatura": 2,
+        "filosofia_psicologia": 1
+      },
+      "rasgos": {
+        "persuasivo": 3,
+        "comunicativo": 3,
+        "analitico": 2,
+        "responsable": 1,
+        "lider": 1
+      },
+      "ambientes": {
+        "oficina": 3,
+        "calle_viajando": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "PFkFXFSz1WE",
+        "zwPfg95vLEo",
+        "W7WqlBHceeQ"
+      ],
+      "busqueda": "qué estudia la carrera de Derecho y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Introducción al derecho",
+          "Derecho romano",
+          "Sociología",
+          "Redacción jurídica"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Derecho civil",
+          "Derecho constitucional",
+          "Derecho penal",
+          "Teoría del Estado"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Derecho procesal civil y penal",
+          "Derecho laboral",
+          "Derecho mercantil",
+          "Derecho administrativo"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Derecho internacional",
+          "Derechos humanos",
+          "Derecho notarial",
+          "Consultorio jurídico"
+        ]
+      },
+      {
+        "nivel": "Quinto año",
+        "materias": [
+          "Práctica forense",
+          "Seminario de graduación"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Abogado independiente",
+      "Juzgados y fiscalía",
+      "Asesoría legal en empresas"
+    ],
+    "alternativas_cortas": [
+      "Técnico en asistencia legal"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "periodismo",
+    "nombre": "Periodismo y Comunicación",
+    "area": "Ciencias sociales",
+    "descripcion": "Investiga y cuenta historias en radio, TV, prensa y medios digitales.",
+    "duracion": "4 a 5 años",
+    "perfil": {
+      "intereses": {
+        "hablar_comunicar": 3,
+        "leer_escribir": 3,
+        "redes_contenido": 3,
+        "viajar_lugares": 1
+      },
+      "materias": {
+        "espanol_literatura": 3,
+        "estudios_sociales": 2,
+        "informatica": 1,
+        "ingles": 1
+      },
+      "rasgos": {
+        "comunicativo": 3,
+        "curioso": 3,
+        "creativo": 2,
+        "sociable": 1,
+        "aventurero": 1
+      },
+      "ambientes": {
+        "calle_viajando": 3,
+        "estudio_creativo": 2,
+        "oficina": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "7a4JVqYjjw8",
+        "MWnSiZWW1Eg",
+        "BYsoWOZJAjA"
+      ],
+      "busqueda": "qué estudia la carrera de Periodismo y Comunicación y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Teoría de la comunicación",
+          "Redacción",
+          "Realidad nacional",
+          "Fotografía"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Periodismo informativo",
+          "Radio",
+          "Televisión",
+          "Ética periodística"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Periodismo digital",
+          "Periodismo de investigación",
+          "Producción audiovisual",
+          "Comunicación organizacional"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Medios digitales y redes",
+          "Práctica en medios",
+          "Seminario"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Medios de comunicación",
+      "Comunicación de empresas e instituciones",
+      "Creación de contenido digital"
+    ],
+    "alternativas_cortas": [
+      "Cursos de fotografía, edición de video y marketing digital"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "pedagogia",
+    "nombre": "Pedagogía y Profesorado",
+    "area": "Educación",
+    "descripcion": "Forma docentes y especialistas que enseñan, orientan y mejoran la educación.",
+    "duracion": "4 a 5 años",
+    "perfil": {
+      "intereses": {
+        "ensenar_explicar": 3,
+        "ayudar_personas": 2,
+        "hablar_comunicar": 2,
+        "organizar_planificar": 1
+      },
+      "materias": {
+        "espanol_literatura": 2,
+        "matematicas": 1,
+        "estudios_sociales": 2,
+        "ciencias_naturales": 1,
+        "filosofia_psicologia": 2
+      },
+      "rasgos": {
+        "paciente": 3,
+        "comunicativo": 2,
+        "empatico": 2,
+        "responsable": 2,
+        "lider": 1
+      },
+      "ambientes": {
+        "aula": 3,
+        "oficina": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "fj9Zi_Ut5QE",
+        "wx8aU8t4AfY",
+        "pcixkmFUDDE"
+      ],
+      "busqueda": "qué estudia la carrera de Pedagogía y Profesorado y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Fundamentos de la educación",
+          "Psicología del aprendizaje",
+          "Comunicación",
+          "Filosofía"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Didáctica general",
+          "Currículo",
+          "Evaluación educativa",
+          "Tecnología educativa"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Didáctica especial",
+          "Orientación educativa",
+          "Investigación educativa",
+          "Inclusión"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Gestión educativa",
+          "Práctica docente",
+          "Seminario"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Docente en centros educativos",
+      "Orientación y gestión educativa",
+      "Capacitación en empresas"
+    ],
+    "alternativas_cortas": [
+      "Profesorado a distancia (UPNFM / UNAH)"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "lenguas",
+    "nombre": "Lenguas Extranjeras / Profesorado de Inglés",
+    "area": "Educación",
+    "descripcion": "Domina otros idiomas para enseñar, traducir o trabajar en servicio al cliente bilingüe y turismo.",
+    "duracion": "4 a 5 años",
+    "perfil": {
+      "intereses": {
+        "idiomas": 3,
+        "viajar_lugares": 2,
+        "hablar_comunicar": 2,
+        "ensenar_explicar": 2,
+        "leer_escribir": 1
+      },
+      "materias": {
+        "ingles": 3,
+        "espanol_literatura": 2
+      },
+      "rasgos": {
+        "comunicativo": 3,
+        "sociable": 2,
+        "curioso": 1,
+        "paciente": 1
+      },
+      "ambientes": {
+        "aula": 2,
+        "oficina": 2,
+        "remoto_casa": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "VpX9XIOUVao",
+        "fIl9PwW5xKw",
+        "DUFC7C4ubkU"
+      ],
+      "busqueda": "qué estudia la carrera de Lenguas Extranjeras y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Inglés I y II",
+          "Fonética",
+          "Lingüística",
+          "Redacción en español"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Inglés III y IV",
+          "Francés I",
+          "Gramática",
+          "Literatura"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Traducción",
+          "Didáctica de lenguas",
+          "Cultura anglosajona",
+          "Francés II"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Interpretación",
+          "Práctica docente o de traducción",
+          "Seminario"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Docente de idiomas",
+      "Traductor",
+      "Centros de llamadas bilingües",
+      "Turismo"
+    ],
+    "alternativas_cortas": [
+      "Cursos de inglés gratuitos (INFOP)",
+      "Técnico bilingüe en call center"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "educacion_fisica",
+    "nombre": "Educación Física y Deportes",
+    "area": "Educación",
+    "descripcion": "Enseña actividad física, entrenamiento y hábitos saludables.",
+    "duracion": "4 a 5 años",
+    "perfil": {
+      "intereses": {
+        "deportes": 3,
+        "ensenar_explicar": 2,
+        "salud_cuidado": 1,
+        "liderar": 1
+      },
+      "materias": {
+        "educacion_fisica": 3,
+        "biologia": 1
+      },
+      "rasgos": {
+        "aventurero": 2,
+        "lider": 2,
+        "sociable": 2,
+        "trabajo_equipo": 2,
+        "paciente": 1
+      },
+      "ambientes": {
+        "campo_aire_libre": 3,
+        "aula": 2
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "rsf_QDFppeY",
+        "Ag1hxv5me28",
+        "DS80XTNsPDk"
+      ],
+      "busqueda": "qué estudia la carrera de Educación Física y Deportes y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Anatomía",
+          "Fundamentos del deporte",
+          "Atletismo",
+          "Psicología"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Fisiología del ejercicio",
+          "Fútbol y deportes colectivos",
+          "Didáctica",
+          "Primeros auxilios"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Entrenamiento deportivo",
+          "Recreación",
+          "Biomecánica",
+          "Natación"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Administración deportiva",
+          "Práctica docente",
+          "Seminario"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Docente de educación física",
+      "Entrenador",
+      "Gimnasios y recreación"
+    ],
+    "alternativas_cortas": [
+      "Cursos de entrenamiento y primeros auxilios"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "administracion",
+    "nombre": "Administración de Empresas",
+    "area": "Negocios",
+    "descripcion": "Dirige y organiza empresas, personas y recursos para que funcionen y crezcan.",
+    "duracion": "4 a 5 años",
+    "perfil": {
+      "intereses": {
+        "negocios_vender": 3,
+        "organizar_planificar": 3,
+        "liderar": 2,
+        "numeros_calculos": 1
+      },
+      "materias": {
+        "emprendimiento": 3,
+        "contabilidad": 2,
+        "matematicas": 1
+      },
+      "rasgos": {
+        "lider": 3,
+        "organizado": 2,
+        "persuasivo": 1,
+        "responsable": 2,
+        "trabajo_equipo": 1
+      },
+      "ambientes": {
+        "oficina": 3,
+        "remoto_casa": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "y5L8tZdT6NM",
+        "mBbJL30Zi40",
+        "D7kGENiUO3w"
+      ],
+      "busqueda": "qué estudia la carrera de Administración de Empresas y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Administración general",
+          "Contabilidad",
+          "Matemática",
+          "Economía"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Mercadotecnia",
+          "Recursos humanos",
+          "Estadística",
+          "Derecho mercantil"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Finanzas",
+          "Producción y operaciones",
+          "Comportamiento organizacional",
+          "Costos"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Planeación estratégica",
+          "Emprendimiento",
+          "Negocios internacionales",
+          "Práctica profesional"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Gerencia en empresas",
+      "Negocio propio",
+      "Bancos y cooperativas"
+    ],
+    "alternativas_cortas": [
+      "Técnico en microfinanzas",
+      "Cursos de emprendimiento (INFOP)"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "contaduria",
+    "nombre": "Contaduría Pública y Finanzas",
+    "area": "Negocios",
+    "descripcion": "Lleva y analiza las cuentas, impuestos y finanzas de empresas y personas.",
+    "duracion": "4 a 5 años",
+    "perfil": {
+      "intereses": {
+        "numeros_calculos": 3,
+        "organizar_planificar": 3,
+        "negocios_vender": 1
+      },
+      "materias": {
+        "contabilidad": 3,
+        "matematicas": 3,
+        "emprendimiento": 1
+      },
+      "rasgos": {
+        "organizado": 3,
+        "detallista": 3,
+        "responsable": 2,
+        "analitico": 2
+      },
+      "ambientes": {
+        "oficina": 3,
+        "remoto_casa": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "5z_LhSXcA2c",
+        "uwc51xflKDU",
+        "PvacF-PVhKQ"
+      ],
+      "busqueda": "qué estudia la carrera de Contaduría Pública y Finanzas y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Contabilidad I",
+          "Matemática financiera",
+          "Administración",
+          "Economía"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Contabilidad intermedia",
+          "Costos",
+          "Estadística",
+          "Derecho tributario"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Auditoría",
+          "Finanzas corporativas",
+          "Contabilidad gubernamental",
+          "Impuestos"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Auditoría avanzada",
+          "Normas internacionales (NIIF)",
+          "Práctica profesional"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Contador en empresas",
+      "Auditoría",
+      "Bancos",
+      "Consultoría de impuestos"
+    ],
+    "alternativas_cortas": [
+      "Técnico en contabilidad",
+      "Cursos de Excel y contabilidad (INFOP)"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "economia",
+    "nombre": "Economía",
+    "area": "Negocios",
+    "descripcion": "Analiza cómo se producen y reparten los recursos para mejorar decisiones de empresas y país.",
+    "duracion": "4 a 5 años",
+    "perfil": {
+      "intereses": {
+        "numeros_calculos": 3,
+        "investigar_experimentar": 2,
+        "debatir_justicia": 1,
+        "negocios_vender": 1
+      },
+      "materias": {
+        "matematicas": 3,
+        "estudios_sociales": 2,
+        "emprendimiento": 2
+      },
+      "rasgos": {
+        "analitico": 3,
+        "curioso": 2,
+        "independiente": 1,
+        "organizado": 1
+      },
+      "ambientes": {
+        "oficina": 3,
+        "remoto_casa": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "tKppGiIhUno",
+        "qe8ux5pD1Ds",
+        "vbkgyCBppnc"
+      ],
+      "busqueda": "qué estudia la carrera de Economía y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Introducción a la economía",
+          "Matemática",
+          "Historia económica",
+          "Contabilidad"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Microeconomía",
+          "Macroeconomía",
+          "Estadística",
+          "Cálculo"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Econometría",
+          "Economía internacional",
+          "Finanzas públicas",
+          "Desarrollo económico"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Política económica",
+          "Evaluación de proyectos",
+          "Seminario de investigación"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Banco Central y gobierno",
+      "Bancos y empresas",
+      "Organismos internacionales"
+    ],
+    "alternativas_cortas": [
+      "Cursos de análisis de datos"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "mercadotecnia",
+    "nombre": "Mercadotecnia y Marketing Digital",
+    "area": "Negocios",
+    "descripcion": "Crea estrategias para que productos y marcas lleguen a las personas, también en redes.",
+    "duracion": "4 años",
+    "perfil": {
+      "intereses": {
+        "negocios_vender": 3,
+        "redes_contenido": 3,
+        "hablar_comunicar": 2,
+        "arte_dibujo": 1
+      },
+      "materias": {
+        "emprendimiento": 2,
+        "informatica": 1,
+        "espanol_literatura": 1,
+        "arte": 1
+      },
+      "rasgos": {
+        "creativo": 3,
+        "persuasivo": 3,
+        "sociable": 2,
+        "comunicativo": 2
+      },
+      "ambientes": {
+        "oficina": 2,
+        "remoto_casa": 2,
+        "estudio_creativo": 1,
+        "calle_viajando": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "922Jz0JNxi4",
+        "5ztUgwoj_lc",
+        "owoA4SMnvHU"
+      ],
+      "busqueda": "qué estudia la carrera de Mercadotecnia y Marketing Digital y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Fundamentos de mercadotecnia",
+          "Administración",
+          "Comunicación",
+          "Estadística"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Comportamiento del consumidor",
+          "Investigación de mercados",
+          "Publicidad",
+          "Ventas"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Marketing digital",
+          "Gestión de marca",
+          "Precios y distribución",
+          "Redes sociales"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Estrategia comercial",
+          "Comercio electrónico",
+          "Práctica profesional"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Agencias de publicidad",
+      "Departamentos de marketing",
+      "Ventas y comercio electrónico"
+    ],
+    "alternativas_cortas": [
+      "Técnico en marketing digital",
+      "Cursos gratuitos de marketing digital"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "comercio_internacional",
+    "nombre": "Comercio Internacional",
+    "area": "Negocios",
+    "descripcion": "Gestiona exportaciones, importaciones y negocios entre países, incluida la agroindustria.",
+    "duracion": "4 a 5 años",
+    "perfil": {
+      "intereses": {
+        "negocios_vender": 3,
+        "idiomas": 2,
+        "viajar_lugares": 2,
+        "organizar_planificar": 2
+      },
+      "materias": {
+        "emprendimiento": 2,
+        "ingles": 2,
+        "contabilidad": 1,
+        "estudios_sociales": 1
+      },
+      "rasgos": {
+        "organizado": 2,
+        "comunicativo": 2,
+        "persuasivo": 2,
+        "detallista": 1
+      },
+      "ambientes": {
+        "oficina": 3,
+        "calle_viajando": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "SBXgwHNUBGw",
+        "JSbpCX79IHk",
+        "UAqzxjp_rQM"
+      ],
+      "busqueda": "qué estudia la carrera de Comercio Internacional y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Economía",
+          "Administración",
+          "Contabilidad",
+          "Inglés"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Comercio exterior",
+          "Legislación aduanera",
+          "Logística",
+          "Estadística"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Negociación internacional",
+          "Mercadeo internacional",
+          "Finanzas internacionales"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Agronegocios y exportación",
+          "Tratados comerciales",
+          "Práctica profesional"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Empresas exportadoras",
+      "Aduanas y logística",
+      "Zonas libres"
+    ],
+    "alternativas_cortas": [
+      "Técnico en agroexportación"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "turismo",
+    "nombre": "Turismo y Hospitalidad (Ecoturismo)",
+    "area": "Negocios",
+    "descripcion": "Organiza experiencias de viaje, hoteles y turismo sostenible que cuidan la naturaleza.",
+    "duracion": "4 años",
+    "perfil": {
+      "intereses": {
+        "viajar_lugares": 3,
+        "idiomas": 2,
+        "naturaleza_ambiente": 2,
+        "hablar_comunicar": 2,
+        "cocinar": 1
+      },
+      "materias": {
+        "ingles": 2,
+        "estudios_sociales": 2,
+        "emprendimiento": 1
+      },
+      "rasgos": {
+        "sociable": 3,
+        "aventurero": 2,
+        "comunicativo": 2,
+        "organizado": 1
+      },
+      "ambientes": {
+        "calle_viajando": 3,
+        "campo_aire_libre": 2,
+        "oficina": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "hFR6q9XlpbY",
+        "fyjcZwuh6D4",
+        "y9pAkes-6GI"
+      ],
+      "busqueda": "qué estudia la carrera de Turismo y Hospitalidad y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Introducción al turismo",
+          "Inglés",
+          "Geografía turística",
+          "Administración"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Hotelería",
+          "Guianza turística",
+          "Patrimonio cultural",
+          "Alimentos y bebidas"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Ecoturismo",
+          "Agencias de viajes",
+          "Mercadeo turístico",
+          "Inglés avanzado"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Planificación turística",
+          "Emprendimiento turístico",
+          "Práctica profesional"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Hoteles y resorts",
+      "Guía turístico",
+      "Agencias de viajes",
+      "Emprendimiento turístico"
+    ],
+    "alternativas_cortas": [
+      "Técnico en turismo sostenible",
+      "Cursos de atención al cliente e inglés (INFOP)"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "diseno_grafico",
+    "nombre": "Diseño Gráfico",
+    "area": "Arte y diseño",
+    "descripcion": "Comunica ideas con imágenes, marcas, ilustración y diseño digital.",
+    "duracion": "4 años",
+    "perfil": {
+      "intereses": {
+        "arte_dibujo": 3,
+        "redes_contenido": 2,
+        "tecnologia": 2,
+        "videojuegos": 1
+      },
+      "materias": {
+        "arte": 3,
+        "informatica": 2
+      },
+      "rasgos": {
+        "creativo": 3,
+        "detallista": 2,
+        "independiente": 1,
+        "curioso": 1
+      },
+      "ambientes": {
+        "estudio_creativo": 3,
+        "remoto_casa": 2,
+        "oficina": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "5ASIqRyAYSU",
+        "2GKK_VAVW40",
+        "TrCi-afzwe8"
+      ],
+      "busqueda": "qué estudia la carrera de Diseño Gráfico y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Dibujo",
+          "Teoría del color",
+          "Fundamentos del diseño",
+          "Historia del arte"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Tipografía",
+          "Diseño digital",
+          "Fotografía",
+          "Ilustración"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Diseño de marca",
+          "Diseño web",
+          "Animación",
+          "Diseño editorial"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Portafolio profesional",
+          "Emprendimiento creativo",
+          "Práctica profesional"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Agencias de publicidad",
+      "Freelance",
+      "Medios y editoriales"
+    ],
+    "alternativas_cortas": [
+      "Técnico en diseño gráfico",
+      "Cursos gratuitos de diseño digital"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "arquitectura",
+    "nombre": "Arquitectura",
+    "area": "Arte y diseño",
+    "descripcion": "Diseña casas, edificios y espacios funcionales, seguros y bonitos.",
+    "duracion": "5 años",
+    "perfil": {
+      "intereses": {
+        "disenar_espacios": 3,
+        "arte_dibujo": 3,
+        "construir_reparar": 1
+      },
+      "materias": {
+        "dibujo_tecnico": 3,
+        "matematicas": 2,
+        "arte": 2,
+        "fisica": 1
+      },
+      "rasgos": {
+        "creativo": 3,
+        "detallista": 2,
+        "analitico": 1,
+        "paciente": 1
+      },
+      "ambientes": {
+        "estudio_creativo": 2,
+        "oficina": 2,
+        "obra_construccion": 2
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "ISPPBUTYhYw",
+        "AA9MzMq42h0",
+        "RIJwbZh2yn0"
+      ],
+      "busqueda": "qué estudia la carrera de Arquitectura y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Dibujo arquitectónico",
+          "Geometría",
+          "Taller de diseño I",
+          "Historia de la arquitectura"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Taller de diseño II",
+          "Materiales de construcción",
+          "Estructuras",
+          "Dibujo asistido por computadora"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Urbanismo",
+          "Instalaciones",
+          "Taller de diseño III",
+          "Paisajismo"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Diseño sostenible",
+          "Gestión de proyectos",
+          "Taller de diseño IV"
+        ]
+      },
+      {
+        "nivel": "Quinto año",
+        "materias": [
+          "Proyecto de graduación",
+          "Práctica profesional"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Estudios de arquitectura",
+      "Constructoras",
+      "Diseño de interiores",
+      "Municipalidades"
+    ],
+    "alternativas_cortas": [
+      "Técnico en dibujo de construcción"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "ing_civil",
+    "nombre": "Ingeniería Civil",
+    "area": "Ingeniería",
+    "descripcion": "Diseña y construye carreteras, puentes, edificios y obras de agua.",
+    "duracion": "5 años",
+    "perfil": {
+      "intereses": {
+        "construir_reparar": 3,
+        "numeros_calculos": 2,
+        "disenar_espacios": 2
+      },
+      "materias": {
+        "matematicas": 3,
+        "fisica": 3,
+        "dibujo_tecnico": 2
+      },
+      "rasgos": {
+        "analitico": 3,
+        "practico": 2,
+        "responsable": 2,
+        "lider": 1
+      },
+      "ambientes": {
+        "obra_construccion": 3,
+        "campo_aire_libre": 2,
+        "oficina": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "clDLL69Scg0",
+        "SuObBe83wcA",
+        "ykznTrrl3dY"
+      ],
+      "busqueda": "qué estudia la carrera de Ingeniería Civil y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Cálculo I",
+          "Física I",
+          "Dibujo técnico",
+          "Química"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Cálculo II",
+          "Estática",
+          "Topografía",
+          "Materiales de construcción"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Resistencia de materiales",
+          "Hidráulica",
+          "Mecánica de suelos",
+          "Análisis estructural"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Diseño de estructuras",
+          "Carreteras",
+          "Acueductos y alcantarillado",
+          "Construcción"
+        ]
+      },
+      {
+        "nivel": "Quinto año",
+        "materias": [
+          "Gestión de proyectos",
+          "Práctica profesional"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Constructoras",
+      "Municipalidades y obras públicas",
+      "Supervisión de proyectos"
+    ],
+    "alternativas_cortas": [
+      "Técnico en construcción y topografía"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "ing_industrial",
+    "nombre": "Ingeniería Industrial",
+    "area": "Ingeniería",
+    "descripcion": "Mejora procesos de fábricas y empresas para producir más, mejor y con menos costo.",
+    "duracion": "5 años",
+    "perfil": {
+      "intereses": {
+        "organizar_planificar": 3,
+        "numeros_calculos": 2,
+        "construir_reparar": 1,
+        "liderar": 1,
+        "negocios_vender": 1
+      },
+      "materias": {
+        "matematicas": 3,
+        "fisica": 2,
+        "informatica": 1
+      },
+      "rasgos": {
+        "analitico": 3,
+        "organizado": 2,
+        "lider": 2,
+        "trabajo_equipo": 1
+      },
+      "ambientes": {
+        "taller_planta": 3,
+        "oficina": 2
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "sFDEssYWeaY",
+        "xtNZchCYTEs",
+        "J2s03v-z3BU"
+      ],
+      "busqueda": "qué estudia la carrera de Ingeniería Industrial y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Cálculo I",
+          "Física",
+          "Dibujo técnico",
+          "Introducción a la ingeniería"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Estadística",
+          "Procesos de manufactura",
+          "Investigación de operaciones",
+          "Contabilidad de costos"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Ingeniería de métodos",
+          "Control de calidad",
+          "Logística",
+          "Seguridad industrial"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Planeación de la producción",
+          "Ingeniería económica",
+          "Gestión de proyectos"
+        ]
+      },
+      {
+        "nivel": "Quinto año",
+        "materias": [
+          "Diseño de plantas",
+          "Práctica profesional"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Maquilas y fábricas",
+      "Logística y operaciones",
+      "Calidad y mejora continua"
+    ],
+    "alternativas_cortas": [
+      "Técnico en producción industrial"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "ing_electrica",
+    "nombre": "Ingeniería Eléctrica / Electrónica",
+    "area": "Ingeniería",
+    "descripcion": "Diseña sistemas de energía, electrónica y automatización.",
+    "duracion": "5 años",
+    "perfil": {
+      "intereses": {
+        "construir_reparar": 3,
+        "tecnologia": 2,
+        "numeros_calculos": 2,
+        "investigar_experimentar": 1
+      },
+      "materias": {
+        "fisica": 3,
+        "matematicas": 3,
+        "informatica": 1
+      },
+      "rasgos": {
+        "analitico": 3,
+        "practico": 2,
+        "detallista": 2,
+        "curioso": 1
+      },
+      "ambientes": {
+        "taller_planta": 2,
+        "campo_aire_libre": 1,
+        "laboratorio": 2
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "-UmxDUjWdcQ",
+        "n3cfxhekfS0",
+        "6ilS8EDmo3U"
+      ],
+      "busqueda": "qué estudia la carrera de Ingeniería Eléctrica y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Cálculo I",
+          "Física I",
+          "Programación",
+          "Dibujo técnico"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Circuitos eléctricos",
+          "Electrónica",
+          "Cálculo II",
+          "Física II"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Máquinas eléctricas",
+          "Sistemas digitales",
+          "Instalaciones eléctricas",
+          "Control"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Sistemas de potencia",
+          "Energías renovables",
+          "Automatización"
+        ]
+      },
+      {
+        "nivel": "Quinto año",
+        "materias": [
+          "Proyecto de ingeniería",
+          "Práctica profesional"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Empresas de energía",
+      "Industria y automatización",
+      "Telecomunicaciones"
+    ],
+    "alternativas_cortas": [
+      "Técnico en electricidad o electrónica (INFOP)"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "ing_mecanica",
+    "nombre": "Ingeniería Mecánica",
+    "area": "Ingeniería",
+    "descripcion": "Diseña y mantiene máquinas, motores y sistemas industriales.",
+    "duracion": "5 años",
+    "perfil": {
+      "intereses": {
+        "construir_reparar": 3,
+        "tecnologia": 1,
+        "numeros_calculos": 2
+      },
+      "materias": {
+        "fisica": 3,
+        "matematicas": 3,
+        "dibujo_tecnico": 2
+      },
+      "rasgos": {
+        "practico": 3,
+        "analitico": 2,
+        "curioso": 1,
+        "detallista": 1
+      },
+      "ambientes": {
+        "taller_planta": 3,
+        "laboratorio": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "C4jwLsvfv6I",
+        "evLiE7oQ1QA",
+        "7NDYHl4_wuM"
+      ],
+      "busqueda": "qué estudia la carrera de Ingeniería Mecánica y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Cálculo I",
+          "Física I",
+          "Dibujo técnico",
+          "Química"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Estática y dinámica",
+          "Ciencia de materiales",
+          "Termodinámica",
+          "Cálculo II"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Mecánica de fluidos",
+          "Diseño de máquinas",
+          "Procesos de manufactura",
+          "Transferencia de calor"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Refrigeración y aire acondicionado",
+          "Mantenimiento industrial",
+          "Motores"
+        ]
+      },
+      {
+        "nivel": "Quinto año",
+        "materias": [
+          "Proyecto de ingeniería",
+          "Práctica profesional"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Industria y maquilas",
+      "Mantenimiento de plantas",
+      "Energía y transporte"
+    ],
+    "alternativas_cortas": [
+      "Técnico en mecánica automotriz o industrial (INFOP)"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "agronomia",
+    "nombre": "Ingeniería Agronómica",
+    "area": "Agro y ambiente",
+    "descripcion": "Mejora la producción de cultivos y el manejo del campo de forma sostenible.",
+    "duracion": "4 a 5 años",
+    "perfil": {
+      "intereses": {
+        "agricultura_campo": 3,
+        "naturaleza_ambiente": 2,
+        "investigar_experimentar": 1,
+        "animales": 1
+      },
+      "materias": {
+        "agricultura": 3,
+        "biologia": 2,
+        "quimica": 2,
+        "ciencias_naturales": 1
+      },
+      "rasgos": {
+        "practico": 3,
+        "aventurero": 1,
+        "responsable": 1,
+        "curioso": 1,
+        "trabajo_equipo": 1
+      },
+      "ambientes": {
+        "campo_aire_libre": 3,
+        "laboratorio": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "aM_kFzX1mQU",
+        "PpKqTTxG1lA",
+        "-Ct0gMdUh-A"
+      ],
+      "busqueda": "qué estudia la carrera de Ingeniería Agronómica y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Botánica",
+          "Química",
+          "Matemática",
+          "Introducción a la agronomía"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Suelos",
+          "Fisiología vegetal",
+          "Entomología",
+          "Producción de cultivos"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Fitopatología",
+          "Riego y drenaje",
+          "Mejoramiento genético",
+          "Producción animal"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Economía agrícola",
+          "Manejo poscosecha",
+          "Agricultura sostenible",
+          "Práctica en finca"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Fincas y empresas agrícolas",
+      "Cooperativas",
+      "Asistencia técnica al productor"
+    ],
+    "alternativas_cortas": [
+      "Técnico en producción agrícola",
+      "Técnico en caficultura"
+    ],
+    "plan_oficial_url": "https://www.unag.edu.hn/documents/planes-de-estudio/plan-de-ingenieria-agronomica.pdf"
+  },
+  {
+    "id": "forestal",
+    "nombre": "Ingeniería Forestal / Ciencias Forestales",
+    "area": "Agro y ambiente",
+    "descripcion": "Maneja y protege bosques, cuencas y recursos naturales.",
+    "duracion": "4 a 5 años",
+    "perfil": {
+      "intereses": {
+        "naturaleza_ambiente": 3,
+        "agricultura_campo": 2,
+        "investigar_experimentar": 1
+      },
+      "materias": {
+        "biologia": 3,
+        "ciencias_naturales": 2,
+        "agricultura": 2,
+        "matematicas": 1
+      },
+      "rasgos": {
+        "aventurero": 2,
+        "practico": 2,
+        "responsable": 1,
+        "curioso": 1,
+        "independiente": 1
+      },
+      "ambientes": {
+        "campo_aire_libre": 3
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "UgOqfvSPi7M",
+        "NNfl2dFgoNY",
+        "69ELnRaTy_0"
+      ],
+      "busqueda": "qué estudia la carrera de Ingeniería Forestal y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Botánica",
+          "Matemática",
+          "Química",
+          "Introducción a las ciencias forestales"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Dendrología",
+          "Suelos forestales",
+          "Topografía",
+          "Ecología"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Manejo forestal",
+          "Silvicultura",
+          "Protección forestal",
+          "Industria de la madera"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Manejo de cuencas",
+          "Áreas protegidas",
+          "Práctica de campo"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Instituto de Conservación Forestal",
+      "Empresas madereras",
+      "Proyectos ambientales"
+    ],
+    "alternativas_cortas": [
+      "Técnico en dasonomía"
+    ],
+    "plan_oficial_url": null
+  },
+  {
+    "id": "veterinaria",
+    "nombre": "Medicina Veterinaria",
+    "area": "Agro y ambiente",
+    "descripcion": "Cuida la salud de animales domésticos y de granja y la seguridad de los alimentos.",
+    "duracion": "5 años",
+    "perfil": {
+      "intereses": {
+        "animales": 3,
+        "salud_cuidado": 2,
+        "agricultura_campo": 1,
+        "investigar_experimentar": 1
+      },
+      "materias": {
+        "biologia": 3,
+        "quimica": 2,
+        "agricultura": 1
+      },
+      "rasgos": {
+        "empatico": 2,
+        "practico": 2,
+        "responsable": 2,
+        "paciente": 1
+      },
+      "ambientes": {
+        "hospital_clinica": 2,
+        "campo_aire_libre": 2
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "I4lEQuSQtDU",
+        "IGnaHdpvwIw",
+        "K2ubG3jpCaE"
+      ],
+      "busqueda": "qué estudia la carrera de Medicina Veterinaria y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Biología",
+          "Química",
+          "Anatomía animal",
+          "Zootecnia"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Fisiología animal",
+          "Bioquímica",
+          "Microbiología",
+          "Nutrición animal"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Patología",
+          "Farmacología",
+          "Parasitología",
+          "Reproducción animal"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Clínica de pequeños y grandes animales",
+          "Cirugía",
+          "Inocuidad de alimentos"
+        ]
+      },
+      {
+        "nivel": "Quinto año",
+        "materias": [
+          "Práctica profesional"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Clínicas veterinarias",
+      "Granjas y ganadería",
+      "Control sanitario"
+    ],
+    "alternativas_cortas": [
+      "Técnico en producción pecuaria"
+    ],
+    "plan_oficial_url": "https://www.unag.edu.hn/documents/planes-de-estudio/plan-de-medicina-veterinaria.pdf"
+  },
+  {
+    "id": "agroindustrial",
+    "nombre": "Ingeniería Agroindustrial / Tecnología de Alimentos",
+    "area": "Agro y ambiente",
+    "descripcion": "Transforma productos del campo en alimentos y productos con valor agregado.",
+    "duracion": "4 a 5 años",
+    "perfil": {
+      "intereses": {
+        "agricultura_campo": 2,
+        "cocinar": 2,
+        "construir_reparar": 1,
+        "negocios_vender": 1,
+        "investigar_experimentar": 1
+      },
+      "materias": {
+        "quimica": 2,
+        "agricultura": 2,
+        "matematicas": 2,
+        "biologia": 1
+      },
+      "rasgos": {
+        "practico": 2,
+        "organizado": 2,
+        "analitico": 1,
+        "detallista": 1
+      },
+      "ambientes": {
+        "taller_planta": 3,
+        "laboratorio": 2,
+        "campo_aire_libre": 1
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "m6cNp1TtvOY",
+        "ZCUxICC3yQ4",
+        "6pzdxsdGMts"
+      ],
+      "busqueda": "qué estudia la carrera de Ingeniería Agroindustrial y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Química",
+          "Matemática",
+          "Biología",
+          "Introducción a la agroindustria"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Microbiología de alimentos",
+          "Operaciones unitarias",
+          "Física",
+          "Estadística"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Procesamiento de frutas, lácteos y cárnicos",
+          "Control de calidad",
+          "Empaques"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Gestión agroindustrial",
+          "Inocuidad alimentaria",
+          "Formulación de proyectos",
+          "Práctica"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Plantas procesadoras de alimentos",
+      "Control de calidad",
+      "Emprendimientos agroindustriales"
+    ],
+    "alternativas_cortas": [
+      "Técnico en tecnología de alimentos",
+      "Cursos de elaboración de alimentos (INFOP)"
+    ],
+    "plan_oficial_url": "https://portal.unag.edu.hn/wp-content/uploads/2021/10/Plan-de-Tecnologia-Alimentaria.pdf"
+  },
+  {
+    "id": "biologia",
+    "nombre": "Biología",
+    "area": "Ciencias",
+    "descripcion": "Estudia los seres vivos, la biodiversidad y los ecosistemas.",
+    "duracion": "4 a 5 años",
+    "perfil": {
+      "intereses": {
+        "naturaleza_ambiente": 3,
+        "investigar_experimentar": 3,
+        "animales": 2
+      },
+      "materias": {
+        "biologia": 3,
+        "quimica": 2,
+        "ciencias_naturales": 3
+      },
+      "rasgos": {
+        "curioso": 3,
+        "analitico": 2,
+        "paciente": 1,
+        "aventurero": 1
+      },
+      "ambientes": {
+        "laboratorio": 3,
+        "campo_aire_libre": 2
+      }
+    },
+    "video": {
+      "youtube_ids": [
+        "qIr59WQQkJk",
+        "y8H88vrZiPI",
+        "efegGnvQ0tM"
+      ],
+      "busqueda": "qué estudia la carrera de Biología y en qué trabaja"
+    },
+    "temario": [
+      {
+        "nivel": "Primer año",
+        "materias": [
+          "Biología general",
+          "Química",
+          "Matemática",
+          "Física"
+        ]
+      },
+      {
+        "nivel": "Segundo año",
+        "materias": [
+          "Botánica",
+          "Zoología",
+          "Genética",
+          "Química orgánica"
+        ]
+      },
+      {
+        "nivel": "Tercer año",
+        "materias": [
+          "Ecología",
+          "Microbiología",
+          "Biología marina",
+          "Bioestadística"
+        ]
+      },
+      {
+        "nivel": "Cuarto año",
+        "materias": [
+          "Conservación",
+          "Biología molecular",
+          "Investigación de campo"
+        ]
+      }
+    ],
+    "campo_laboral": [
+      "Investigación",
+      "Áreas protegidas y ONG ambientales",
+      "Docencia"
+    ],
+    "alternativas_cortas": [
+      "Voluntariados ambientales"
+    ],
+    "plan_oficial_url": null
+  }
+]

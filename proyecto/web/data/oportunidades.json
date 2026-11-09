@@ -1,0 +1,216 @@
+[
+  {
+    "id": "sedesol_becas",
+    "tipo": "beca",
+    "nombre": "Programa Nacional de Becas de SEDESOL",
+    "resumen": "Apoyo de 4,000 lempiras al mes para universitarios de grado. En 2026 se ofrecieron más de 8,000 becas en los 18 departamentos.",
+    "requisitos": [
+      "Estar matriculado en una carrera universitaria",
+      "Índice académico superior al 80%",
+      "Tener entre 17 y 40 años, ser hondureño y vivir en Honduras",
+      "No recibir otra beca del gobierno",
+      "Cuenta de ahorro personal en lempiras"
+    ],
+    "como_aplicar": [
+      "Espera la convocatoria (la de 2026 abrió el 11 de junio).",
+      "Prepara DNI o partida de nacimiento, título o certificado, constancia de matrícula, historial y un recibo de servicio público.",
+      "Llena el formulario en línea y adjunta los documentos."
+    ],
+    "url": "https://sedesol.gob.hn/becas/",
+    "carreras": "todas",
+    "requiere_internet": true
+  },
+  {
+    "id": "unah_mi_bienestar",
+    "tipo": "beca",
+    "nombre": "Becas y ayudas Mi Bienestar UNAH (VOAE)",
+    "resumen": "Becas académicas y ayudas económicas para estudiantes de la UNAH con buen rendimiento y necesidad económica; también apoyos de alimentación, materiales y transporte.",
+    "requisitos": [
+      "Ser estudiante matriculado de la UNAH",
+      "Buen rendimiento académico",
+      "Necesidad económica comprobable"
+    ],
+    "como_aplicar": [
+      "Entra al sistema DIPP con tu número de cuenta.",
+      "Busca Mi Bienestar y elige Solicitud de beca.",
+      "Elige beca académica, ayuda económica o ambas y envía el formulario."
+    ],
+    "url": "https://voae.unah.edu.hn",
+    "carreras": "unah",
+    "requiere_internet": true
+  },
+  {
+    "id": "unacifor_becas",
+    "tipo": "beca",
+    "nombre": "Becas UNACIFOR",
+    "resumen": "El comité de becas evalúa PAA, situación socioeconómica, notas del colegio y cartas de referencia.",
+    "requisitos": [
+      "Ser admitido en UNACIFOR"
+    ],
+    "como_aplicar": [
+      "Solicítala junto con tu expediente de admisión."
+    ],
+    "url": "https://unacifor.edu.hn",
+    "carreras": [
+      "forestal",
+      "turismo"
+    ],
+    "requiere_internet": false
+  },
+  {
+    "id": "zamorano_sedesol",
+    "tipo": "beca",
+    "nombre": "Becas Zamorano – SEDESOL",
+    "resumen": "Convenio 2026 de más de 60 millones de lempiras que beneficia a 177 jóvenes hondureños en carreras agro de Zamorano.",
+    "requisitos": [
+      "Ser admitido en Zamorano",
+      "Compromiso de retribuir al país al graduarte"
+    ],
+    "como_aplicar": [
+      "Aplica a Zamorano y solicita ayuda financiera.",
+      "Pregunta en admisiones por los cupos del convenio con SEDESOL."
+    ],
+    "url": "https://www.zamorano.edu",
+    "carreras": [
+      "agronomia",
+      "agroindustrial",
+      "forestal",
+      "administracion"
+    ],
+    "requiere_internet": true
+  },
+  {
+    "id": "earth",
+    "tipo": "beca",
+    "nombre": "Universidad EARTH (Costa Rica)",
+    "resumen": "Universidad agrícola internacional que ofrece becas según necesidad económica a jóvenes de Latinoamérica, incluidos de zonas rurales. Verifica la convocatoria vigente.",
+    "requisitos": [
+      "Graduado de secundaria",
+      "Interés en agro y ambiente"
+    ],
+    "como_aplicar": [
+      "Revisa la convocatoria de admisión y becas en su sitio.",
+      "Prepara notas, cartas y entrevista."
+    ],
+    "url": "https://www.earth.ac.cr",
+    "carreras": [
+      "agronomia",
+      "forestal",
+      "biologia",
+      "agroindustrial"
+    ],
+    "requiere_internet": true
+  },
+  {
+    "id": "unah_distancia",
+    "tipo": "distancia",
+    "nombre": "UNAH a distancia (CRAED / SUED) y telecentros",
+    "resumen": "La UNAH ofrece Pedagogía y Administración de Empresas Agropecuarias a distancia, y telecentros en Gracias, Ocotepeque, Roatán, Choloma, Puerto Cortés y Marcala.",
+    "requisitos": [
+      "Aprobar la PHUMA"
+    ],
+    "como_aplicar": [
+      "Elige la modalidad a distancia al seleccionar carrera en admisiones UNAH."
+    ],
+    "url": "https://admisiones.unah.edu.hn",
+    "carreras": [
+      "pedagogia",
+      "administracion",
+      "agronomia"
+    ],
+    "requiere_internet": true,
+    "gratuita": true
+  },
+  {
+    "id": "upnfm_distancia",
+    "tipo": "distancia",
+    "nombre": "UPNFM – Educación a distancia",
+    "resumen": "Profesorados en modalidad a distancia con tutorías en distintos departamentos.",
+    "requisitos": [
+      "Aprobar el examen de admisión de la UPNFM"
+    ],
+    "como_aplicar": [
+      "Consulta en admisiones de la UPNFM la sede de distancia más cercana."
+    ],
+    "url": "https://www.upnfm.edu.hn",
+    "carreras": [
+      "pedagogia",
+      "lenguas",
+      "educacion_fisica"
+    ],
+    "requiere_internet": true,
+    "gratuita": true
+  },
+  {
+    "id": "infop",
+    "tipo": "gratis",
+    "nombre": "INFOP – Cursos técnicos gratuitos",
+    "resumen": "Cursos gratuitos presenciales y virtuales (inglés, computación, redes, electricidad, alimentos, atención al cliente y más) para mayores de 16 años.",
+    "requisitos": [
+      "Mayor de 16 años",
+      "Inscripción en la oficina regional o en línea"
+    ],
+    "como_aplicar": [
+      "Llama o visita la oficina del INFOP de tu departamento.",
+      "Pregunta por cursos virtuales si vives lejos."
+    ],
+    "url": "https://www.infop.hn",
+    "carreras": "todas",
+    "requiere_internet": false,
+    "gratuita": true
+  },
+  {
+    "id": "carlos_slim",
+    "tipo": "gratis",
+    "nombre": "Capacítate para el empleo (Fundación Carlos Slim)",
+    "resumen": "Cursos en línea gratuitos y con constancia, en español, de cientos de oficios y áreas técnicas.",
+    "requisitos": [
+      "Internet (funciona en celular)"
+    ],
+    "como_aplicar": [
+      "Crea tu cuenta gratuita y elige una ruta de tu carrera."
+    ],
+    "url": "https://capacitateparaelempleo.org",
+    "carreras": "todas",
+    "requiere_internet": true,
+    "gratuita": true
+  },
+  {
+    "id": "khan",
+    "tipo": "preparacion",
+    "nombre": "Khan Academy en español",
+    "resumen": "Gratis: repasa matemáticas, lectura y ciencias para la PHUMA y exámenes de admisión.",
+    "requisitos": [
+      "Internet o descarga de videos"
+    ],
+    "como_aplicar": [
+      "Entra a es.khanacademy.org y sigue el curso de matemáticas de tu nivel."
+    ],
+    "url": "https://es.khanacademy.org",
+    "carreras": "todas",
+    "requiere_internet": true,
+    "gratuita": true
+  },
+  {
+    "id": "uopeople",
+    "tipo": "distancia",
+    "nombre": "University of the People (en inglés)",
+    "resumen": "Universidad en línea acreditada en EE. UU. sin colegiatura; cobra tarifas de solicitud y de evaluación por curso, y tiene becas que pueden cubrirlas. Clases en inglés.",
+    "requisitos": [
+      "Inglés intermedio",
+      "Internet y computadora"
+    ],
+    "como_aplicar": [
+      "Aplica en línea y solicita beca para las tarifas."
+    ],
+    "url": "https://www.uopeople.edu",
+    "carreras": [
+      "sistemas",
+      "administracion",
+      "pedagogia",
+      "nutricion"
+    ],
+    "requiere_internet": true,
+    "gratuita": false
+  }
+]

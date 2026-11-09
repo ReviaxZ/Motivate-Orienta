@@ -1,0 +1,2178 @@
+{
+ "sistemas": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es un algoritmo?",
+   "opciones": [
+    "Un virus informático",
+    "Una secuencia finita de pasos para resolver un problema",
+    "Un lenguaje de programación",
+    "Un tipo de computadora"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué estructura repite un bloque de instrucciones mientras se cumpla una condición?",
+   "opciones": [
+    "Una variable",
+    "Un ciclo while",
+    "Una constante",
+    "Un comentario"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué estructura de datos funciona con el principio último en entrar, primero en salir?",
+   "opciones": [
+    "Cola",
+    "Grafo",
+    "Pila",
+    "Árbol"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "En una base de datos relacional, ¿qué es una clave primaria?",
+   "opciones": [
+    "Un campo que identifica de forma única cada registro",
+    "Siempre el primer campo de la tabla",
+    "La contraseña de la base de datos",
+    "Una copia de seguridad"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Cuál es la complejidad de la búsqueda binaria en un arreglo ordenado?",
+   "opciones": [
+    "Constante, O de 1",
+    "Lineal, O de n",
+    "Cuadrática, O de n al cuadrado",
+    "Logarítmica, O de log n"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "En el modelo OSI, ¿en qué capa opera el protocolo IP?",
+   "opciones": [
+    "Enlace de datos",
+    "Transporte",
+    "Aplicación",
+    "Red"
+   ],
+   "correcta": 3
+  }
+ ],
+ "informatica_administrativa": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué programa se usa típicamente para hacer hojas de cálculo?",
+   "opciones": [
+    "Microsoft Excel",
+    "Bloc de notas",
+    "Un reproductor de video",
+    "Paint"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es un sistema de información en una empresa?",
+   "opciones": [
+    "El sitio web de la empresa",
+    "Personas, datos y procesos que apoyan la toma de decisiones",
+    "El departamento de ventas",
+    "Solo las computadoras de la empresa"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué instrucción SQL se usa para consultar datos?",
+   "opciones": [
+    "SELECT",
+    "GRANT",
+    "DROP",
+    "DELETE"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué es un ERP?",
+   "opciones": [
+    "Un lenguaje de programación",
+    "Un sistema que integra los procesos de toda la empresa",
+    "Un tipo de red inalámbrica",
+    "Un antivirus"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué notación se usa para modelar procesos de negocio?",
+   "opciones": [
+    "JPEG",
+    "HTML",
+    "BPMN",
+    "TCP"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "En auditoría informática, ¿qué busca principalmente un control interno?",
+   "opciones": [
+    "Reducir riesgos y asegurar la integridad de la información",
+    "Vender más productos",
+    "Aumentar la velocidad del internet",
+    "Diseñar logotipos"
+   ],
+   "correcta": 0
+  }
+ ],
+ "medicina": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué órgano bombea la sangre por todo el cuerpo?",
+   "opciones": [
+    "El riñón",
+    "El hígado",
+    "El pulmón",
+    "El corazón"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuál es la unidad básica de la vida?",
+   "opciones": [
+    "El tejido",
+    "El órgano",
+    "La célula",
+    "El átomo"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué células de la sangre transportan oxígeno?",
+   "opciones": [
+    "Los linfocitos",
+    "Los glóbulos rojos",
+    "Los glóbulos blancos",
+    "Las plaquetas"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué hormona del páncreas regula el azúcar en la sangre?",
+   "opciones": [
+    "La tiroxina",
+    "La adrenalina",
+    "El cortisol",
+    "La insulina"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Cuál es la frecuencia cardíaca normal en reposo de un adulto?",
+   "opciones": [
+    "Entre ciento veinte y ciento sesenta",
+    "Entre sesenta y cien latidos por minuto",
+    "Entre veinte y cuarenta",
+    "Más de ciento ochenta"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué tipo de microorganismo causa el dengue?",
+   "opciones": [
+    "Una bacteria",
+    "Un virus",
+    "Un protozoario",
+    "Un hongo"
+   ],
+   "correcta": 1
+  }
+ ],
+ "enfermeria": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuál es una de las medidas más importantes para prevenir infecciones en el hospital?",
+   "opciones": [
+    "Usar perfume",
+    "El lavado de manos",
+    "Hablar en voz baja",
+    "Cambiar de turno"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuáles son los signos vitales?",
+   "opciones": [
+    "Temperatura, pulso, respiración y presión arterial",
+    "Color de ojos y cabello",
+    "Solo glucosa y colesterol",
+    "Peso, talla y edad"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué vía de administración pone el medicamento directamente en la vena?",
+   "opciones": [
+    "Intramuscular",
+    "Subcutánea",
+    "Intravenosa",
+    "Oral"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Cuál es la temperatura corporal normal aproximada de un adulto?",
+   "opciones": [
+    "Más de cuarenta grados",
+    "Entre treinta y ocho y treinta y nueve grados",
+    "Entre treinta y seis y treinta y siete grados y medio",
+    "Entre treinta y tres y treinta y cuatro grados"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué escala valora el nivel de conciencia de un paciente?",
+   "opciones": [
+    "La escala de Glasgow",
+    "La escala de Mohs",
+    "La escala de Likert",
+    "La escala de Richter"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "Un paciente con presión baja y mareo, ¿en qué posición suele ayudar colocarlo?",
+   "opciones": [
+    "Sentado inclinado hacia adelante",
+    "De pie caminando",
+    "Boca abajo",
+    "Acostado con las piernas elevadas"
+   ],
+   "correcta": 3
+  }
+ ],
+ "odontologia": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuántos dientes tiene un adulto con la dentición completa?",
+   "opciones": [
+    "Cuarenta",
+    "Veinte",
+    "Veinticuatro",
+    "Treinta y dos"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuál es la capa más dura y externa del diente?",
+   "opciones": [
+    "El cemento",
+    "El esmalte",
+    "La pulpa",
+    "La encía"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué causa principalmente la caries dental?",
+   "opciones": [
+    "El agua fría",
+    "Cepillarse demasiado",
+    "La falta de sueño",
+    "Bacterias que producen ácidos a partir de azúcares"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Cuántos dientes tiene la dentición de leche?",
+   "opciones": [
+    "Veintiocho",
+    "Dieciséis",
+    "Treinta y dos",
+    "Veinte"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué especialidad trata la pulpa y los conductos del diente?",
+   "opciones": [
+    "Periodoncia",
+    "Endodoncia",
+    "Ortodoncia",
+    "Prostodoncia"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué especialidad trata las encías y los tejidos de soporte del diente?",
+   "opciones": [
+    "Ortodoncia",
+    "Odontopediatría",
+    "Endodoncia",
+    "Periodoncia"
+   ],
+   "correcta": 3
+  }
+ ],
+ "nutricion": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuáles son los tres macronutrientes?",
+   "opciones": [
+    "Hierro, calcio y zinc",
+    "Fibra, sal y azúcar",
+    "Carbohidratos, proteínas y grasas",
+    "Vitaminas, minerales y agua"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué nutriente es la principal fuente de energía rápida?",
+   "opciones": [
+    "Los minerales",
+    "Los carbohidratos",
+    "El agua",
+    "Las vitaminas"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Cuántas kilocalorías aporta un gramo de grasa?",
+   "opciones": [
+    "Nueve",
+    "Dos",
+    "Cuatro",
+    "Siete"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué vitamina produce la piel con la luz del sol?",
+   "opciones": [
+    "La vitamina B12",
+    "La vitamina C",
+    "La vitamina K",
+    "La vitamina D"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Cómo se calcula el índice de masa corporal?",
+   "opciones": [
+    "Estatura entre peso",
+    "Peso en kilogramos entre la estatura en metros al cuadrado",
+    "Cintura entre cadera",
+    "Peso por edad"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "La falta de hierro en la dieta puede causar principalmente:",
+   "opciones": [
+    "Anemia",
+    "Raquitismo",
+    "Escorbuto",
+    "Bocio"
+   ],
+   "correcta": 0
+  }
+ ],
+ "quimica_farmacia": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuál es la fórmula química del agua?",
+   "opciones": [
+    "O dos",
+    "Na Cl",
+    "C O dos",
+    "H dos O"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es un fármaco?",
+   "opciones": [
+    "Una sustancia que produce un efecto terapéutico en el organismo",
+    "Un instrumento de laboratorio",
+    "Un tipo de célula",
+    "Una enfermedad"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué estudia la farmacocinética?",
+   "opciones": [
+    "El sabor de los medicamentos",
+    "La fabricación de envases",
+    "La absorción, distribución, metabolismo y excreción del fármaco",
+    "Cómo se venden los medicamentos"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Cuál es el pH de una solución neutra?",
+   "opciones": [
+    "Siete",
+    "Catorce",
+    "Uno",
+    "Cero"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿En qué órgano se metabolizan principalmente la mayoría de los fármacos?",
+   "opciones": [
+    "El corazón",
+    "El bazo",
+    "El pulmón",
+    "El hígado"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es un medicamento genérico?",
+   "opciones": [
+    "Uno con el mismo principio activo que el original, sin marca comercial",
+    "Uno sin principio activo",
+    "Uno solo para animales",
+    "Uno ilegal"
+   ],
+   "correcta": 0
+  }
+ ],
+ "microbiologia": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué instrumento se usa para observar bacterias?",
+   "opciones": [
+    "El termómetro",
+    "El estetoscopio",
+    "El microscopio",
+    "El telescopio"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué son las bacterias?",
+   "opciones": [
+    "Organismos unicelulares procariotas",
+    "Virus grandes",
+    "Células del cuerpo humano",
+    "Hongos multicelulares"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué tinción clasifica a las bacterias en positivas y negativas?",
+   "opciones": [
+    "La tinción de Gram",
+    "La tinción de Wright",
+    "La hematoxilina",
+    "La tinción de Papanicolaou"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué medicamento elimina bacterias pero no sirve contra virus?",
+   "opciones": [
+    "El antihistamínico",
+    "El antibiótico",
+    "El analgésico",
+    "El antiviral"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Cuál es la diferencia principal entre un virus y una bacteria?",
+   "opciones": [
+    "No hay diferencia",
+    "El virus necesita una célula huésped para reproducirse",
+    "La bacteria no tiene material genético",
+    "El virus es más grande"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué técnica amplifica fragmentos de ADN para diagnóstico?",
+   "opciones": [
+    "Electroforesis de proteínas",
+    "PCR",
+    "ELISA",
+    "Cultivo en agar"
+   ],
+   "correcta": 1
+  }
+ ],
+ "psicologia": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué estudia la psicología?",
+   "opciones": [
+    "El comportamiento y los procesos mentales",
+    "Las rocas y minerales",
+    "La historia antigua",
+    "Solo las enfermedades del cerebro"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Quién es considerado el padre del psicoanálisis?",
+   "opciones": [
+    "Jean Piaget",
+    "Charles Darwin",
+    "Isaac Newton",
+    "Sigmund Freud"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "Según Piaget, ¿cuál es la primera etapa del desarrollo cognitivo?",
+   "opciones": [
+    "Operaciones concretas",
+    "Operaciones formales",
+    "Sensoriomotora",
+    "Preoperacional"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué es el condicionamiento clásico?",
+   "opciones": [
+    "Una prueba de inteligencia",
+    "Un tipo de terapia de grupo",
+    "Aprender leyendo libros",
+    "Aprender a asociar un estímulo neutro con otro que provoca una respuesta"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué manual se usa internacionalmente para clasificar trastornos mentales?",
+   "opciones": [
+    "La norma ISO",
+    "El DSM",
+    "El IPC",
+    "Las NIIF"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "En la pirámide de Maslow, ¿qué necesidad está en la cima?",
+   "opciones": [
+    "La autorrealización",
+    "La afiliación",
+    "Las fisiológicas",
+    "La seguridad"
+   ],
+   "correcta": 0
+  }
+ ],
+ "trabajo_social": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuál es el objetivo principal del trabajo social?",
+   "opciones": [
+    "Construir edificios",
+    "Vender productos",
+    "Promover el bienestar y los derechos de personas y comunidades",
+    "Diagnosticar enfermedades"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es un estudio socioeconómico?",
+   "opciones": [
+    "Una auditoría contable",
+    "Un análisis de las condiciones sociales y económicas de una familia",
+    "Un examen médico",
+    "Un estudio de mercado"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué es la intervención comunitaria?",
+   "opciones": [
+    "Sancionar a la comunidad",
+    "Vender servicios",
+    "Mudar a la comunidad",
+    "Trabajar con la comunidad para resolver sus problemas de forma participativa"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué documento reconoce internacionalmente los derechos de la niñez?",
+   "opciones": [
+    "La Carta de la OTAN",
+    "La Convención sobre los Derechos del Niño",
+    "Un tratado de libre comercio",
+    "El Código de Comercio"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué técnica permite conocer la dinámica familiar en el hogar?",
+   "opciones": [
+    "La auditoría",
+    "El balance general",
+    "La visita domiciliaria",
+    "La radiografía"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué herramienta representa gráficamente las relaciones familiares de varias generaciones?",
+   "opciones": [
+    "El genograma",
+    "El histograma",
+    "El cronograma",
+    "El organigrama"
+   ],
+   "correcta": 0
+  }
+ ],
+ "derecho": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuál es la ley suprema de un país?",
+   "opciones": [
+    "Una sentencia",
+    "La Constitución",
+    "Un reglamento municipal",
+    "Un contrato privado"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es un contrato?",
+   "opciones": [
+    "Un juicio",
+    "Una multa",
+    "Un acuerdo de voluntades que crea obligaciones",
+    "Una ley del Congreso"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué poder del Estado juzga y aplica las leyes en casos concretos?",
+   "opciones": [
+    "El Poder Ejecutivo",
+    "La municipalidad",
+    "El Poder Judicial",
+    "El Poder Legislativo"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué principio dice que toda persona es inocente hasta que se demuestre lo contrario?",
+   "opciones": [
+    "La cosa juzgada",
+    "La irretroactividad",
+    "La presunción de inocencia",
+    "La legítima defensa"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué recurso protege a una persona detenida ilegalmente?",
+   "opciones": [
+    "El divorcio",
+    "El habeas corpus",
+    "La pensión alimenticia",
+    "La hipoteca"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es la prescripción en derecho?",
+   "opciones": [
+    "Una receta médica",
+    "La pérdida o adquisición de un derecho por el paso del tiempo",
+    "La firma de un contrato",
+    "Un tipo de impuesto"
+   ],
+   "correcta": 1
+  }
+ ],
+ "periodismo": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuáles son las preguntas básicas de una noticia?",
+   "opciones": [
+    "Cuánto cuesta",
+    "Qué, quién, cuándo, dónde, cómo y por qué",
+    "Solo cuándo y dónde",
+    "Ninguna"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es una fuente periodística?",
+   "opciones": [
+    "Una cámara de video",
+    "El título de la noticia",
+    "Una persona o documento que aporta información",
+    "Un tipo de letra"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué estructura ordena la información de lo más a lo menos importante?",
+   "opciones": [
+    "El cuento",
+    "La línea de tiempo",
+    "La pirámide invertida",
+    "La entrevista"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué género periodístico expresa la opinión del medio?",
+   "opciones": [
+    "La crónica",
+    "El reportaje",
+    "La noticia",
+    "El editorial"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es la verificación de datos?",
+   "opciones": [
+    "Medir la audiencia",
+    "Contar las palabras",
+    "Revisar la ortografía",
+    "Comprobar la veracidad de datos y declaraciones antes de publicar"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué principio protege la identidad de quien da información confidencial?",
+   "opciones": [
+    "La censura previa",
+    "La libertad de prensa",
+    "El secreto profesional",
+    "El derecho de réplica"
+   ],
+   "correcta": 2
+  }
+ ],
+ "pedagogia": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué estudia la pedagogía?",
+   "opciones": [
+    "Los mercados",
+    "Las enfermedades",
+    "Las plantas",
+    "La educación y los procesos de enseñanza y aprendizaje"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es un plan de clase?",
+   "opciones": [
+    "El horario del colegio",
+    "El reglamento escolar",
+    "La lista de estudiantes",
+    "La planificación de objetivos, actividades y evaluación de una clase"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué evaluación se hace durante el proceso para mejorar el aprendizaje?",
+   "opciones": [
+    "El examen de admisión",
+    "El examen final",
+    "La evaluación sumativa",
+    "La evaluación formativa"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué autor propuso la zona de desarrollo próximo?",
+   "opciones": [
+    "Isaac Newton",
+    "Sigmund Freud",
+    "Jean Piaget",
+    "Lev Vygotsky"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué propone la taxonomía de Bloom?",
+   "opciones": [
+    "Medir la inteligencia",
+    "Niveles de pensamiento para formular objetivos de aprendizaje",
+    "Clasificar plantas",
+    "Ordenar libros"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "Según Ausubel, ¿qué es el aprendizaje significativo?",
+   "opciones": [
+    "Memorizar sin entender",
+    "Copiar del pizarrón",
+    "Relacionar la nueva información con lo que el estudiante ya sabe",
+    "Aprender con castigos"
+   ],
+   "correcta": 2
+  }
+ ],
+ "lenguas": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuál es el pasado del verbo en inglés go?",
+   "opciones": [
+    "Gone",
+    "Goed",
+    "Went",
+    "Going"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cómo se dice biblioteca en inglés?",
+   "opciones": [
+    "Study",
+    "Library",
+    "Librery",
+    "Bookstore"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué tiempo verbal es I have lived here for five years?",
+   "opciones": [
+    "Pasado simple",
+    "Presente continuo",
+    "Presente perfecto",
+    "Futuro simple"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué palabra en francés significa gracias?",
+   "opciones": [
+    "S'il vous plaît",
+    "Bonjour",
+    "Merci",
+    "Au revoir"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es un falso amigo en traducción?",
+   "opciones": [
+    "Una palabra parecida en dos idiomas pero con distinto significado",
+    "Un sinónimo exacto",
+    "Un error de pronunciación",
+    "Una palabra prestada"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué rama de la lingüística estudia los sonidos del habla?",
+   "opciones": [
+    "La pragmática",
+    "La fonética",
+    "La semántica",
+    "La sintaxis"
+   ],
+   "correcta": 1
+  }
+ ],
+ "educacion_fisica": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuántos jugadores tiene en la cancha un equipo de fútbol?",
+   "opciones": [
+    "Siete",
+    "Nueve",
+    "Once",
+    "Cinco"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué se recomienda hacer antes de una actividad física intensa?",
+   "opciones": [
+    "Comer mucho",
+    "Nada",
+    "Dormir",
+    "Un calentamiento"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué capacidad física permite mantener un esfuerzo por largo tiempo?",
+   "opciones": [
+    "La flexibilidad",
+    "El equilibrio",
+    "La resistencia",
+    "La velocidad"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué sistema del cuerpo produce el movimiento junto con los huesos?",
+   "opciones": [
+    "El sistema urinario",
+    "El sistema digestivo",
+    "El sistema muscular",
+    "El sistema endocrino"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Cómo se estima comúnmente la frecuencia cardíaca máxima?",
+   "opciones": [
+    "Ciento ochenta menos el peso",
+    "La edad por dos",
+    "Doscientos veinte menos la edad",
+    "Cien más la edad"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué principio dice que la carga de entrenamiento debe aumentar poco a poco?",
+   "opciones": [
+    "La igualdad",
+    "La inercia",
+    "El principio de Pascal",
+    "La sobrecarga progresiva"
+   ],
+   "correcta": 3
+  }
+ ],
+ "administracion": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuáles son las funciones del proceso administrativo?",
+   "opciones": [
+    "Producir y almacenar",
+    "Planear, organizar, dirigir y controlar",
+    "Contratar y despedir",
+    "Comprar, vender y cobrar"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es la misión de una empresa?",
+   "opciones": [
+    "Su razón de ser y propósito",
+    "Su lista de precios",
+    "Su edificio principal",
+    "Su número de empleados"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué herramienta analiza fortalezas, oportunidades, debilidades y amenazas?",
+   "opciones": [
+    "El análisis FODA",
+    "El diagrama de Gantt",
+    "El flujo de caja",
+    "El balance general"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué es un organigrama?",
+   "opciones": [
+    "Un contrato laboral",
+    "Un estado financiero",
+    "La representación gráfica de la estructura de una organización",
+    "Un plan de ventas"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué indica el punto de equilibrio?",
+   "opciones": [
+    "La máxima utilidad posible",
+    "El precio de la competencia",
+    "El nivel de ventas donde ingresos y costos son iguales",
+    "El número ideal de empleados"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es el retorno sobre la inversión?",
+   "opciones": [
+    "El capital inicial",
+    "Los impuestos pagados",
+    "El total de ventas",
+    "La ganancia obtenida en relación con lo invertido"
+   ],
+   "correcta": 3
+  }
+ ],
+ "contaduria": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuál es la ecuación contable básica?",
+   "opciones": [
+    "Activo igual a pasivo más capital",
+    "Activo igual a capital menos pasivo",
+    "Pasivo igual a activo más capital",
+    "Ingresos igual a gastos"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es un activo?",
+   "opciones": [
+    "Una deuda con proveedores",
+    "Un impuesto",
+    "Un gasto del mes",
+    "Un recurso controlado por la empresa del que espera beneficios"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué estado financiero muestra ingresos, costos y utilidad de un período?",
+   "opciones": [
+    "El inventario",
+    "El libro de actas",
+    "El estado de resultados",
+    "El balance general"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "En partida doble, ¿qué significa que todo cargo tiene un abono?",
+   "opciones": [
+    "Que se cobra dos veces",
+    "Que se paga doble impuesto",
+    "Que cada operación afecta al menos dos cuentas por el mismo valor",
+    "Que hay dos contadores"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué son las NIIF?",
+   "opciones": [
+    "Un banco internacional",
+    "Un impuesto nacional",
+    "Normas Internacionales de Información Financiera",
+    "Normas de inventario industrial"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es la depreciación?",
+   "opciones": [
+    "Distribuir el costo de un activo fijo durante su vida útil",
+    "Un préstamo bancario",
+    "Un aumento de precio",
+    "Una pérdida por robo"
+   ],
+   "correcta": 0
+  }
+ ],
+ "economia": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué estudia la economía?",
+   "opciones": [
+    "Los idiomas",
+    "Solo el dinero de los bancos",
+    "Las estrellas",
+    "Cómo se usan recursos escasos para satisfacer necesidades"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es la inflación?",
+   "opciones": [
+    "El aumento generalizado de los precios",
+    "La compra de dólares",
+    "El aumento del empleo",
+    "La baja de los salarios"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "Según la ley de la demanda, si el precio de un bien sube, ¿qué pasa con la cantidad demandada?",
+   "opciones": [
+    "Se duplica",
+    "Disminuye",
+    "No cambia",
+    "Aumenta"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué mide el producto interno bruto?",
+   "opciones": [
+    "El valor de los bienes y servicios finales producidos en un país en un período",
+    "Solo las exportaciones",
+    "La deuda del gobierno",
+    "La población"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es la elasticidad precio de la demanda?",
+   "opciones": [
+    "La cantidad producida",
+    "Qué tanto cambia la cantidad demandada ante un cambio de precio",
+    "El precio máximo de un bien",
+    "El costo de transporte"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué política aplica el banco central al subir la tasa de interés para frenar la inflación?",
+   "opciones": [
+    "Política comercial",
+    "Política fiscal expansiva",
+    "Política monetaria contractiva",
+    "Política laboral"
+   ],
+   "correcta": 2
+  }
+ ],
+ "mercadotecnia": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuáles son las cuatro P del marketing?",
+   "opciones": [
+    "Precio, pago, préstamo y plazo",
+    "Personas, procesos, planta y papel",
+    "Publicidad, prensa, política y poder",
+    "Producto, precio, plaza y promoción"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es un mercado meta?",
+   "opciones": [
+    "La competencia",
+    "El edificio de un mercado",
+    "El precio más bajo",
+    "El grupo de clientes al que se dirige un producto"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué es la segmentación de mercado?",
+   "opciones": [
+    "Contratar vendedores",
+    "Abrir más tiendas",
+    "Dividir el mercado en grupos con características similares",
+    "Bajar los precios"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué es el posicionamiento?",
+   "opciones": [
+    "El ranking de ventas",
+    "La ubicación de la tienda",
+    "El lugar que ocupa una marca en la mente del consumidor",
+    "El orden en la estantería"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "En marketing digital, ¿qué significa SEO?",
+   "opciones": [
+    "Servicio de envío ordinario",
+    "Sistema de ventas en línea",
+    "Software de edición",
+    "Optimización para motores de búsqueda"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué mide la tasa de conversión?",
+   "opciones": [
+    "El costo del anuncio",
+    "El precio promedio",
+    "El número de seguidores",
+    "El porcentaje de visitantes que realiza la acción deseada"
+   ],
+   "correcta": 3
+  }
+ ],
+ "comercio_internacional": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es exportar?",
+   "opciones": [
+    "Vender bienes o servicios a otro país",
+    "Comprar productos de otro país",
+    "Vender dentro del país",
+    "Prestar dinero"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es un arancel?",
+   "opciones": [
+    "Un banco internacional",
+    "Una moneda",
+    "Un tipo de contenedor",
+    "Un impuesto al comercio exterior"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué son los Incoterms?",
+   "opciones": [
+    "Tipos de barcos",
+    "Impuestos locales",
+    "Reglas que definen responsabilidades entre comprador y vendedor internacionales",
+    "Monedas extranjeras"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué tratado de libre comercio incluye a Estados Unidos, Centroamérica y República Dominicana?",
+   "opciones": [
+    "El CAFTA DR",
+    "La Unión Europea",
+    "El MERCOSUR",
+    "El TLCAN"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué significa el Incoterm FOB?",
+   "opciones": [
+    "El vendedor paga todo hasta el destino",
+    "Mercancía sin seguro",
+    "Libre a bordo: el vendedor entrega la mercancía cargada en el buque",
+    "El comprador recoge en fábrica"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es la balanza comercial?",
+   "opciones": [
+    "El tipo de cambio",
+    "La diferencia entre exportaciones e importaciones",
+    "El presupuesto del gobierno",
+    "La deuda externa"
+   ],
+   "correcta": 1
+  }
+ ],
+ "turismo": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es el turismo?",
+   "opciones": [
+    "Mudarse para siempre",
+    "Estudiar en casa",
+    "Trabajar en una fábrica",
+    "Viajes temporales fuera del lugar habitual por ocio, negocios u otros motivos"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué destino de Honduras es famoso por su arrecife y el buceo?",
+   "opciones": [
+    "Gracias",
+    "Tegucigalpa",
+    "Choluteca",
+    "Roatán"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué es el ecoturismo?",
+   "opciones": [
+    "Cruceros de lujo",
+    "Turismo en centros comerciales",
+    "Turismo responsable en áreas naturales que conserva y beneficia a la comunidad",
+    "Viajes de negocios"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué sitio arqueológico maya de Honduras es Patrimonio de la Humanidad?",
+   "opciones": [
+    "Machu Picchu",
+    "Tikal",
+    "Chichén Itzá",
+    "Copán Ruinas"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué indica la tasa de ocupación hotelera?",
+   "opciones": [
+    "Las estrellas del hotel",
+    "El número de empleados",
+    "El porcentaje de habitaciones ocupadas en un período",
+    "El precio por noche"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es la capacidad de carga turística?",
+   "opciones": [
+    "El presupuesto de promoción",
+    "El número de buses",
+    "El máximo de visitantes que un lugar soporta sin deteriorarse",
+    "El peso de equipaje permitido"
+   ],
+   "correcta": 2
+  }
+ ],
+ "diseno_grafico": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuáles son los colores primarios de la luz en el modelo RGB?",
+   "opciones": [
+    "Cian, magenta y amarillo",
+    "Rojo, amarillo y azul",
+    "Rojo, verde y azul",
+    "Blanco, negro y gris"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es un logotipo?",
+   "opciones": [
+    "La representación gráfica de una marca",
+    "Una cámara",
+    "Un tipo de papel",
+    "Un programa de oficina"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué modelo de color se usa para impresión?",
+   "opciones": [
+    "Escala de grises únicamente",
+    "HSL",
+    "CMYK",
+    "RGB"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué ventaja tiene una imagen vectorial sobre un mapa de bits?",
+   "opciones": [
+    "No tiene ninguna",
+    "Se puede ampliar sin perder calidad",
+    "Solo es en blanco y negro",
+    "Pesa siempre más"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es el kerning en tipografía?",
+   "opciones": [
+    "El tipo de papel",
+    "El ajuste del espacio entre pares de letras",
+    "El color del texto",
+    "El tamaño de la letra"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué ley de la Gestalt dice que percibimos como grupo los elementos cercanos?",
+   "opciones": [
+    "La ley de Ohm",
+    "La ley de la oferta",
+    "La ley de proximidad",
+    "La ley de gravedad"
+   ],
+   "correcta": 2
+  }
+ ],
+ "arquitectura": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es un plano arquitectónico?",
+   "opciones": [
+    "Un tipo de ladrillo",
+    "Un contrato de obra",
+    "Una foto del edificio",
+    "Una representación gráfica a escala de una construcción"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "En un plano a escala uno a cien, ¿cuánto representa un centímetro?",
+   "opciones": [
+    "Un metro",
+    "Un centímetro",
+    "Diez metros",
+    "Un kilómetro"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué elemento transmite las cargas del edificio al suelo?",
+   "opciones": [
+    "La cimentación",
+    "El cielo falso",
+    "La pintura",
+    "La ventana"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué software se usa comúnmente para dibujo arquitectónico?",
+   "opciones": [
+    "Excel",
+    "Un reproductor de música",
+    "PowerPoint",
+    "AutoCAD"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es la arquitectura bioclimática?",
+   "opciones": [
+    "Pintar de verde los edificios",
+    "Diseñar aprovechando el clima para lograr confort con menos energía",
+    "Construir sin ventanas",
+    "Usar solo aire acondicionado"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué metodología modela un edificio con la información de todos sus elementos?",
+   "opciones": [
+    "BIM",
+    "PERT",
+    "FODA",
+    "CPM"
+   ],
+   "correcta": 0
+  }
+ ],
+ "ing_civil": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué material resulta de mezclar cemento, arena, grava y agua?",
+   "opciones": [
+    "El concreto",
+    "El vidrio",
+    "La madera",
+    "El acero"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué instrumento de topografía mide ángulos y distancias?",
+   "opciones": [
+    "El osciloscopio",
+    "El microscopio",
+    "La estación total",
+    "El termómetro"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Por qué se coloca acero de refuerzo en el concreto?",
+   "opciones": [
+    "Para que seque más rápido",
+    "Por estética",
+    "Porque el concreto resiste poco a la tensión",
+    "Para que pese menos"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué estudia la mecánica de suelos?",
+   "opciones": [
+    "El clima",
+    "El tráfico",
+    "Los minerales preciosos",
+    "El comportamiento del suelo ante las cargas"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es el momento flector en una viga?",
+   "opciones": [
+    "El efecto de las cargas que tiende a doblarla",
+    "Solo su peso propio",
+    "Su color",
+    "Su longitud"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Cómo cambia la presión de un fluido en reposo con la profundidad?",
+   "opciones": [
+    "Aumenta con la profundidad",
+    "Es igual en todo punto",
+    "No existe presión en reposo",
+    "Disminuye con la profundidad"
+   ],
+   "correcta": 0
+  }
+ ],
+ "ing_industrial": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué busca principalmente la ingeniería industrial?",
+   "opciones": [
+    "Diseñar ropa",
+    "Curar enfermedades",
+    "Mejorar procesos para hacerlos más eficientes",
+    "Escribir leyes"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es la productividad?",
+   "opciones": [
+    "El número de empleados",
+    "La relación entre lo producido y los recursos usados",
+    "El tamaño de la fábrica",
+    "El precio del producto"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué metodología busca eliminar desperdicios en la producción?",
+   "opciones": [
+    "Lean manufacturing",
+    "El marketing digital",
+    "El derecho laboral",
+    "La contabilidad de costos"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué herramienta muestra las tareas de un proyecto en el tiempo?",
+   "opciones": [
+    "El diagrama de Venn",
+    "El árbol genealógico",
+    "El mapa conceptual",
+    "El diagrama de Gantt"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué método optimiza recursos sujetos a restricciones lineales?",
+   "opciones": [
+    "La estadística descriptiva",
+    "La derivación",
+    "La trigonometría",
+    "La programación lineal"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué busca Six Sigma?",
+   "opciones": [
+    "Bajar los salarios",
+    "Contratar más personal",
+    "Aumentar el inventario",
+    "Reducir la variación y los defectos en los procesos"
+   ],
+   "correcta": 3
+  }
+ ],
+ "ing_electrica": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuál es la unidad de la resistencia eléctrica?",
+   "opciones": [
+    "El ohmio",
+    "El amperio",
+    "El voltio",
+    "El vatio"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "Según la ley de Ohm, el voltaje es igual a:",
+   "opciones": [
+    "La resistencia entre la corriente",
+    "La potencia por el tiempo",
+    "La corriente más la resistencia",
+    "La corriente por la resistencia"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué tipo de corriente llega a las casas?",
+   "opciones": [
+    "Corriente continua",
+    "Corriente magnética",
+    "Corriente estática",
+    "Corriente alterna"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué componente almacena energía en un campo eléctrico?",
+   "opciones": [
+    "El capacitor",
+    "El fusible",
+    "El interruptor",
+    "El cable"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué hace un transformador?",
+   "opciones": [
+    "Almacena energía en baterías",
+    "Cambia el nivel de voltaje en corriente alterna",
+    "Genera electricidad del sol",
+    "Mide la corriente"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "En resistencias conectadas en serie, la resistencia total es:",
+   "opciones": [
+    "Cero",
+    "La suma de todas",
+    "El promedio",
+    "La menor de ellas"
+   ],
+   "correcta": 1
+  }
+ ],
+ "ing_mecanica": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuál es la unidad de fuerza en el Sistema Internacional?",
+   "opciones": [
+    "El julio",
+    "El pascal",
+    "El newton",
+    "El vatio"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "Según la segunda ley de Newton, la fuerza es igual a:",
+   "opciones": [
+    "La masa por la aceleración",
+    "La masa por la velocidad",
+    "El peso entre la gravedad",
+    "La energía por el tiempo"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué estudia la termodinámica?",
+   "opciones": [
+    "Los seres vivos",
+    "Las leyes del país",
+    "La energía, el calor y el trabajo",
+    "Los circuitos electrónicos"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué hace un motor de combustión interna?",
+   "opciones": [
+    "Enfría el aire",
+    "Convierte luz en sonido",
+    "Almacena electricidad",
+    "Convierte la energía química del combustible en trabajo mecánico"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es la fatiga de materiales?",
+   "opciones": [
+    "El cansancio del operario",
+    "La falla por cargas repetidas aunque sean menores al límite de resistencia",
+    "El desgaste de la pintura",
+    "La oxidación por lluvia"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué ciclo termodinámico describe el motor de gasolina ideal?",
+   "opciones": [
+    "El ciclo del agua",
+    "El ciclo Otto",
+    "El ciclo de Krebs",
+    "El ciclo de Deming"
+   ],
+   "correcta": 1
+  }
+ ],
+ "agronomia": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué proceso realizan las plantas para producir su alimento con la luz solar?",
+   "opciones": [
+    "La fermentación",
+    "La digestión",
+    "La evaporación",
+    "La fotosíntesis"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuáles son los tres nutrientes principales de un fertilizante NPK?",
+   "opciones": [
+    "Níquel, plomo y potasio",
+    "Nitrógeno, fósforo y potasio",
+    "Neón, plata y kriptón",
+    "Nitrógeno, plata y calcio"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué es la rotación de cultivos?",
+   "opciones": [
+    "Regar en círculos",
+    "Girar las plantas al sol",
+    "Cosechar dos veces al día",
+    "Alternar distintos cultivos en un terreno para mantener su fertilidad"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué mide el pH del suelo?",
+   "opciones": [
+    "Su humedad",
+    "Su temperatura",
+    "Su acidez o alcalinidad",
+    "Su color"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es el manejo integrado de plagas?",
+   "opciones": [
+    "Combinar métodos biológicos, culturales y químicos con menor impacto",
+    "Quemar el cultivo",
+    "Usar solo químicos",
+    "No hacer nada"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué tipo de riego aplica el agua gota a gota cerca de la raíz?",
+   "opciones": [
+    "Riego por aspersión",
+    "Riego por inundación",
+    "Riego por gravedad",
+    "Riego por goteo"
+   ],
+   "correcta": 3
+  }
+ ],
+ "forestal": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es un bosque?",
+   "opciones": [
+    "Un parque urbano",
+    "Un ecosistema dominado por árboles",
+    "Un cultivo de maíz",
+    "Un desierto"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué gas absorben los árboles y ayuda a reducir el cambio climático?",
+   "opciones": [
+    "El nitrógeno",
+    "El dióxido de carbono",
+    "El oxígeno",
+    "El helio"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué plaga ha afectado gravemente a los pinares de Honduras?",
+   "opciones": [
+    "El picudo del algodón",
+    "El gorgojo descortezador del pino",
+    "La roya",
+    "La broca del café"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué es la silvicultura?",
+   "opciones": [
+    "La pesca",
+    "El manejo y cultivo de los bosques",
+    "El estudio de los suelos",
+    "La minería"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es el diámetro a la altura del pecho?",
+   "opciones": [
+    "El diámetro del tronco medido a un metro treinta del suelo",
+    "El ancho de la copa",
+    "La altura total del árbol",
+    "La edad del árbol"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es una cuenca hidrográfica?",
+   "opciones": [
+    "Un tipo de árbol",
+    "Un territorio cuyas aguas drenan a un mismo río o lago",
+    "Un tanque de agua",
+    "Una represa"
+   ],
+   "correcta": 1
+  }
+ ],
+ "veterinaria": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Cuál de estos animales es un rumiante?",
+   "opciones": [
+    "El caballo",
+    "La vaca",
+    "El perro",
+    "El gato"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Para qué sirve vacunar a los animales?",
+   "opciones": [
+    "Para prevenir enfermedades",
+    "Para que crezcan más rápido",
+    "Para cambiar su color",
+    "Para que coman menos"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Cuántos compartimentos tiene el estómago de un bovino?",
+   "opciones": [
+    "Seis",
+    "Cuatro",
+    "Dos",
+    "Uno"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué es una zoonosis?",
+   "opciones": [
+    "Un zoológico",
+    "Una raza de perro",
+    "Un tipo de alimento",
+    "Una enfermedad que se transmite entre animales y humanos"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué enfermedad viral mortal se transmite por la mordida de animales infectados?",
+   "opciones": [
+    "La rabia",
+    "La brucelosis",
+    "La leptospirosis",
+    "La tuberculosis"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es el período de retiro de un medicamento veterinario?",
+   "opciones": [
+    "El tiempo que debe pasar antes de consumir leche o carne del animal tratado",
+    "La fecha de compra",
+    "El tiempo de fabricación",
+    "Las vacaciones del veterinario"
+   ],
+   "correcta": 0
+  }
+ ],
+ "agroindustrial": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué es la agroindustria?",
+   "opciones": [
+    "Vender tierras",
+    "Transformar productos del campo en productos con valor agregado",
+    "Sembrar a mano",
+    "Criar mascotas"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué proceso calienta la leche para eliminar microorganismos?",
+   "opciones": [
+    "La fermentación",
+    "La destilación",
+    "La congelación",
+    "La pasteurización"
+   ],
+   "correcta": 3
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué son las Buenas Prácticas de Manufactura?",
+   "opciones": [
+    "Recetas de cocina",
+    "Normas de tránsito",
+    "Normas para producir alimentos seguros e higiénicos",
+    "Técnicas de venta"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Qué microorganismo se usa para fermentar el pan?",
+   "opciones": [
+    "La levadura",
+    "El moho negro",
+    "La bacteria del tifus",
+    "Un virus"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué es el sistema HACCP?",
+   "opciones": [
+    "Un tipo de envase",
+    "Un impuesto",
+    "Un análisis de peligros y puntos críticos de control para la inocuidad",
+    "Una máquina empacadora"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué indica la actividad de agua de un alimento?",
+   "opciones": [
+    "El contenido de sal",
+    "El precio",
+    "El color",
+    "El agua disponible para el crecimiento de microorganismos"
+   ],
+   "correcta": 3
+  }
+ ],
+ "biologia": [
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué molécula contiene la información genética?",
+   "opciones": [
+    "El agua",
+    "El ADN",
+    "El almidón",
+    "La glucosa"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "basico",
+   "pregunta": "¿Qué organelo produce la energía de la célula?",
+   "opciones": [
+    "La pared celular",
+    "La mitocondria",
+    "El núcleo",
+    "El ribosoma"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "¿Quién propuso la evolución por selección natural?",
+   "opciones": [
+    "Charles Darwin",
+    "Albert Einstein",
+    "Gregor Mendel",
+    "Louis Pasteur"
+   ],
+   "correcta": 0
+  },
+  {
+   "nivel": "intermedio",
+   "pregunta": "En un ecosistema, ¿qué organismos producen su propio alimento?",
+   "opciones": [
+    "Los descomponedores",
+    "Los consumidores",
+    "Los productores",
+    "Los depredadores"
+   ],
+   "correcta": 2
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "Si se cruzan dos plantas heterocigotas Aa, ¿qué proporción de la descendencia será aa?",
+   "opciones": [
+    "Ninguna",
+    "Un cuarto",
+    "La mitad",
+    "Tres cuartos"
+   ],
+   "correcta": 1
+  },
+  {
+   "nivel": "avanzado",
+   "pregunta": "¿Qué proceso forma células sexuales con la mitad de los cromosomas?",
+   "opciones": [
+    "La ósmosis",
+    "La fotosíntesis",
+    "La meiosis",
+    "La mitosis"
+   ],
+   "correcta": 2
+  }
+ ]
+}

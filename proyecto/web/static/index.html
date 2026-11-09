@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fabiola · Agente de voz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f4f5f7;
+      --card: #ffffff;
+      --text: #14161a;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --accent: #0f766e;
+      --accent-soft: rgba(15, 118, 110, 0.14);
+      --danger: #dc2626;
+      --danger-soft: rgba(220, 38, 38, 0.12);
+      --shadow: 0 20px 50px -20px rgba(15, 23, 42, 0.25);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d0f12;
+        --card: #16191e;
+        --text: #eef0f3;
+        --muted: #9aa1ac;
+        --line: #262a31;
+        --accent: #2dd4bf;
+        --accent-soft: rgba(45, 212, 191, 0.14);
+        --danger: #f87171;
+        --danger-soft: rgba(248, 113, 113, 0.14);
+        --shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.7);
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: grid;
+      place-items: center;
+      padding: 16px;
+    }
+    .card {
+      width: 100%;
+      max-width: 420px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      padding: 32px 24px 28px;
+      text-align: center;
+    }
+    h1 { font-size: 20px; font-weight: 600; margin: 0 0 4px; }
+    .sub { color: var(--muted); font-size: 14px; margin: 0 0 28px; }
+
+    .stage {
+      position: relative;
+      width: 200px; height: 200px;
+      margin: 0 auto 20px;
+      display: grid; place-items: center;
+    }
+    .ring {
+      position: absolute; inset: 0;
+      border-radius: 50%;
+      background: var(--accent-soft);
+      transform: scale(var(--s, 0.72));
+      transition: transform 90ms linear, opacity 200ms;
+      opacity: 0;
+    }
+    .live .ring { opacity: 1; }
+    .ring.r2 { background: transparent; border: 2px solid var(--accent-soft); transform: scale(var(--s2, 0.8)); }
+
+    .mic {
+      position: relative;
+      width: 112px; height: 112px;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+      background: var(--accent);
+      color: #fff;
+      display: grid; place-items: center;
+      box-shadow: 0 10px 30px -10px var(--accent);
+      transition: transform 150ms ease, filter 150ms;
+    }
+    .mic:hover { transform: scale(1.04); }
+    .mic:active { transform: scale(0.97); }
+    .mic:disabled { cursor: default; filter: saturate(0.6); transform: none; }
+    .mic svg { width: 44px; height: 44px; }
+    .connecting .mic { animation: pulse 1.2s ease-in-out infinite; }
+    @keyframes pulse { 50% { transform: scale(0.94); } }
+
+    .status { font-size: 15px; font-weight: 500; min-height: 22px; margin: 0; }
+    .timer { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; min-height: 18px; margin: 4px 0 18px; }
+
+    .hangup {
+      width: 52px; height: 52px;
+      border-radius: 50%;
+      border: 1px solid var(--line);
+      background: var(--danger-soft);
+      color: var(--danger);
+      cursor: pointer;
+      display: none; place-items: center;
+      margin: 0 auto;
+      transition: transform 150ms;
+    }
+    .hangup:hover { transform: scale(1.06); }
+    .hangup svg { width: 22px; height: 22px; }
+    .live .hangup, .connecting .hangup { display: grid; }
+
+    .transcript {
+      margin-top: 22px;
+      text-align: left;
+      border-top: 1px solid var(--line);
+      padding-top: 14px;
+      max-height: 220px;
+      overflow-y: auto;
+      display: none;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+    .transcript.has { display: block; }
+    .line { margin: 0 0 10px; }
+    .who { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 2px; }
+    .line.agent .who { color: var(--accent); }
+
+    .error { color: var(--danger); font-size: 13px; margin-top: 14px; min-height: 18px; }
+    .hint { color: var(--muted); font-size: 12px; margin-top: 18px; }
+  </style>
+</head>
+<body>
+  <main class="card" id="app">
+    <h1>Fabiola</h1>
+    <p class="sub">Agente de voz · LiveKit</p>
+
+    <div class="stage">
+      <div class="ring" id="ring"></div>
+      <div class="ring r2" id="ring2"></div>
+      <button class="mic" id="micBtn" aria-label="Iniciar conversación">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="9" y="2" width="6" height="12" rx="3" />
+          <path d="M5 10v1a7 7 0 0 0 14 0v-1" />
+          <line x1="12" y1="18" x2="12" y2="22" />
+        </svg>
+      </button>
+    </div>
+
+    <p class="status" id="status">Toca el micrófono para hablar</p>
+    <p class="timer" id="timer"></p>
+
+    <button class="hangup" id="hangBtn" aria-label="Terminar conversación" title="Terminar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true">
+        <line x1="6" y1="6" x2="18" y2="18" /><line x1="18" y1="6" x2="6" y2="18" />
+      </svg>
+    </button>
+
+    <div class="transcript" id="transcript"></div>
+    <div class="error" id="error"></div>
+    <p class="hint">Se pedirá permiso para usar el micrófono.</p>
+  </main>
+
+  <div id="audio" hidden></div>
+
+  <script src="/livekit-client.umd.js"></script>
+  <script>
+    const LK = window.LivekitClient;
+    const $ = (id) => document.getElementById(id);
+    const app = $("app"), micBtn = $("micBtn"), hangBtn = $("hangBtn");
+    const statusEl = $("status"), timerEl = $("timer"), errorEl = $("error");
+    const ring = $("ring"), ring2 = $("ring2"), transcriptEl = $("transcript"), audioBox = $("audio");
+
+    const STATE_LABEL = {
+      initializing: "Fabiola se está preparando…",
+      listening: "Escuchando…",
+      thinking: "Pensando…",
+      speaking: "Fabiola está hablando",
+    };
+
+    let room = null, agent = null, raf = 0, tick = 0, startedAt = 0, agentTimeout = 0;
+    const segments = new Map(); // segment_id -> elemento de texto
+
+    function setMode(mode) {
+      app.classList.remove("idle", "connecting", "live");
+      app.classList.add(mode);
+      micBtn.disabled = mode !== "idle";
+    }
+    function setStatus(t) { statusEl.textContent = t; }
+
+    async function start() {
+      errorEl.textContent = "";
+      transcriptEl.innerHTML = ""; transcriptEl.classList.remove("has"); segments.clear();
+      setMode("connecting");
+      setStatus("Conectando…");
+
+      try {
+        const res = await fetch("/api/token", { method: "POST" });
+        if (!res.ok) throw new Error("No se pudo obtener el token (" + res.status + ")");
+        const { serverUrl, token } = await res.json();
+
+        room = new LK.Room({ adaptiveStream: true, dynacast: true });
+        wireRoom(room);
+
+        await room.connect(serverUrl, token);
+        await room.startAudio(); // desbloquea la reproducción (estamos dentro del clic)
+        await room.localParticipant.setMicrophoneEnabled(true, {
+          echoCancellation: true, noiseSuppression: true, autoGainControl: true,
+        });
+
+        setStatus("Esperando a Fabiola…");
+        findAgent();
+        agentTimeout = setTimeout(() => {
+          if (!agent) fail("Fabiola no se unió. Revisa que el contenedor del agente esté corriendo.");
+        }, 20000);
+      } catch (e) {
+        fail(e && e.message ? e.message : String(e));
+      }
+    }
+
+    function wireRoom(r) {
+      const E = LK.RoomEvent;
+
+      r.on(E.TrackSubscribed, (track) => {
+        if (track.kind === LK.Track.Kind.Audio) {
+          const el = track.attach();
+          audioBox.appendChild(el);
+        }
+      });
+      r.on(E.TrackUnsubscribed, (track) => track.detach().forEach((el) => el.remove()));
+
+      r.on(E.ParticipantConnected, () => findAgent());
+      r.on(E.ParticipantDisconnected, (p) => {
+        if (agent && p.identity === agent.identity) {
+          agent = null;
+          stop("La conversación terminó");
+        }
+      });
+      r.on(E.ParticipantAttributesChanged, (_changed, p) => {
+        if (agent && p.identity === agent.identity) showAgentState();
+      });
+      r.on(E.Disconnected, () => { if (room === r) cleanup("Conversación finalizada"); });
+
+      // Transcripciones en vivo que envía livekit-agents (usuario y agente)
+      r.registerTextStreamHandler("lk.transcription", async (reader, info) => {
+        const attrs = reader.info.attributes || {};
+        const segId = attrs["lk.segment_id"] || reader.info.id;
+        const isAgent = info.identity !== r.localParticipant.identity;
+        const textEl = lineFor(segId, isAgent);
+        let text = "";
+        for await (const chunk of reader) {
+          text += chunk;
+          textEl.textContent = text;
+          transcriptEl.scrollTop = transcriptEl.scrollHeight;
+        }
+      });
+    }
+
+    function lineFor(segId, isAgent) {
+      if (segments.has(segId)) return segments.get(segId);
+      const p = document.createElement("p");
+      p.className = "line " + (isAgent ? "agent" : "user");
+      p.innerHTML = '<span class="who">' + (isAgent ? "Fabiola" : "Tú") + "</span>";
+      const span = document.createElement("span");
+      p.appendChild(span);
+      transcriptEl.appendChild(p);
+      transcriptEl.classList.add("has");
+      segments.set(segId, span);
+      return span;
+    }
+
+    function findAgent() {
+      if (!room || agent) return;
+      for (const p of room.remoteParticipants.values()) {
+        if (p.kind === LK.ParticipantKind.AGENT || p.identity.startsWith("agent-")) {
+          agent = p;
+          clearTimeout(agentTimeout);
+          setMode("live");
+          startedAt = Date.now();
+          tick = setInterval(updateTimer, 500);
+          updateTimer();
+          showAgentState();
+          loop();
+          return;
+        }
+      }
+    }
+
+    function showAgentState() {
+      const s = agent && agent.attributes ? agent.attributes["lk.agent.state"] : null;
+      setStatus(STATE_LABEL[s] || "Conectada con Fabiola");
+    }
+
+    function updateTimer() {
+      const s = Math.floor((Date.now() - startedAt) / 1000);
+      timerEl.textContent = String(Math.floor(s / 60)).padStart(2, "0") + ":" + String(s % 60).padStart(2, "0");
+    }
+
+    // Anillos animados: el interior sigue la voz de Fabiola, el exterior la tuya
+    function loop() {
+      const a = agent ? agent.audioLevel || 0 : 0;
+      const u = room ? room.localParticipant.audioLevel || 0 : 0;
+      ring.style.setProperty("--s", (0.72 + Math.min(a * 2.2, 0.28)).toFixed(3));
+      ring2.style.setProperty("--s2", (0.8 + Math.min(u * 2.2, 0.2)).toFixed(3));
+      raf = requestAnimationFrame(loop);
+    }
+
+    async function stop(msg) {
+      const r = room;
+      room = null;
+      if (r) await r.disconnect();
+      cleanup(msg || "Conversación finalizada");
+    }
+
+    function cleanup(msg) {
+      cancelAnimationFrame(raf); clearInterval(tick); clearTimeout(agentTimeout);
+      agent = null; room = null;
+      audioBox.innerHTML = "";
+      timerEl.textContent = "";
+      setMode("idle");
+      setStatus(msg || "Toca el micrófono para hablar");
+    }
+
+    function fail(msg) {
+      errorEl.textContent = msg;
+      stop("Toca el micrófono para intentar de nuevo");
+    }
+
+    micBtn.addEventListener("click", start);
+    hangBtn.addEventListener("click", () => stop());
+    window.addEventListener("beforeunload", () => { if (room) room.disconnect(); });
+    setMode("idle");
+  </script>
+</body>
+</html>
